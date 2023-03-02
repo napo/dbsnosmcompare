@@ -1,4 +1,4 @@
-# dbsnosmcompare
+# dbsn osm compare
 Scripts to compare DBSN data from IGM with the OSM data
 * investigate_data.ipynb
 this script read all the sources of DBSN and compare the data for the streets and building with the relative OpenStreetMap data
