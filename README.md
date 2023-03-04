@@ -36,6 +36,7 @@ However, since it is open data, the Italian OpenStreetMap community has created 
 Scripts to compare DBSN data from IGM with the OSM data
 * [01_download_data.py](https://github.com/napo/dbsnosmcompare/blob/main/01_download_data.py)<br/>this script download all the data from DBSN and the geopackages openstreetmap data offered by Wikimedia Italia with the project [OSM Estratti](https://osmit-estratti.wmcloud.org/)<br/>
 **NOTE**: this script download ~62Gb of files
+* [02_osm_declaration_in_dbsn.py](https://github.com/napo/dbsnosmcompare/blob/main/02_osm_declaration_in_dbsn.py)<br/>this script creates csv and parquet files from all the DBSN data - separated by province - and calculate the number of objects for each layer and the number of objects tagged as "source from openstreetmap" by IGM.
 * investigate_data.ipynb
 this script read all the sources of DBSN and compare the data for the streets and building with the relative OpenStreetMap data
 * show_data.ipynb
