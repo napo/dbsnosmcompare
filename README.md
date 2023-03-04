@@ -34,7 +34,8 @@ However, since it is open data, the Italian OpenStreetMap community has created 
 ## Scripts
 
 Scripts to compare DBSN data from IGM with the OSM data
-* [01_download_data.py](https://github.com/napo/dbsnosmcompare/blob/main/01_download_data.py)<br/>this script download all the data from DBSN and the geopackages openstreetmap data offered by Wikimedia Italia with the project [OSM Estratti](https://osmit-estratti.wmcloud.org/)
+* [01_download_data.py](https://github.com/napo/dbsnosmcompare/blob/main/01_download_data.py)<br/>this script download all the data from DBSN and the geopackages openstreetmap data offered by Wikimedia Italia with the project [OSM Estratti](https://osmit-estratti.wmcloud.org/)<br/>
+**NOTE**: this script download ~62Gb of files
 * investigate_data.ipynb
 this script read all the sources of DBSN and compare the data for the streets and building with the relative OpenStreetMap data
 * show_data.ipynb
