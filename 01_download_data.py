@@ -135,14 +135,14 @@ new_dirs = [d.replace("Roma", "Roma Capitale") if d == "Roma" else d.replace("Ma
 new_dirs = [d.replace("Oristano", "Aristanis/Oristano") for d in new_dirs]
 
 
-# In[80]:
+# In[82]:
 
 
 for gdbsource in new_dirs:
     try:
         downloadurl = prefix_download + osm_sources[gdbsource]
         response = requests.get(downloadurl)
-        file_name = dest_dir + os.sep + osm_sources[gdbsource].replace("dati/poly/province/geopackage/","")
+        file_name = dest_dir + os.sep + osm_sources[gdbsource].replace("dati/poly/province/geopackage/","")[4:]
         with open(file_name, "wb") as f:
             f.write(response.content)
     except Exception as e:
