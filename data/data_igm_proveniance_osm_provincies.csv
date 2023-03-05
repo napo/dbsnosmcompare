@@ -1471,52 +1471,52 @@ el_met,0,0,Siena,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility
 el_met,0,0,Ascoli Piceno,Marche,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010206,elemento di metropolitana,metro element,el_met
 el_met,0,0,Catanzaro,Calabria,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010206,elemento di metropolitana,metro element,el_met
 el_met,0,0,Salerno,Campania,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010206,elemento di metropolitana,metro element,el_met
-el_trv,0,0,Pescara,Abruzzo,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,Taranto,Puglia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,2,0,Messina,Sicilia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,Campobasso,Molise,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,Ancona,Marche,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,Vibo Valentia,Calabria,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,Reggio di Calabria,Calabria,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,Rieti,Lazio,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,Pisa,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,Caltanissetta,Sicilia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,Matera,Basilicata,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,Prato,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,Enna,Sicilia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,Arezzo,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,L'Aquila,Abruzzo,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,Avellino,Campania,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,Agrigento,Sicilia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,Macerata,Marche,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,Siracusa,Sicilia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,Benevento,Campania,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,Caserta,Campania,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,Brindisi,Puglia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,Viterbo,Lazio,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,111,111,Napoli,Campania,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,41,41,Firenze,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,Pistoia,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,Potenza,Basilicata,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,Crotone,Calabria,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,Pesaro e Urbino,Marche,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,6,0,Catania,Sicilia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,Grosseto,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,Teramo,Abruzzo,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,Foggia,Puglia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,Chieti,Abruzzo,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,Lucca,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,Bari,Puglia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,Trapani,Sicilia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,Massa Carrara,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,Isernia,Molise,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,101,0,Palermo,Sicilia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,Livorno,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,Ragusa,Sicilia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,Siena,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,Ascoli Piceno,Marche,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,Catanzaro,Calabria,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
-el_trv,0,0,Salerno,Campania,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway,el_trv
+el_trv,0,0,Pescara,Abruzzo,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,Taranto,Puglia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,2,0,Messina,Sicilia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,Campobasso,Molise,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,Ancona,Marche,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,Vibo Valentia,Calabria,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,Reggio di Calabria,Calabria,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,Rieti,Lazio,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,Pisa,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,Caltanissetta,Sicilia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,Matera,Basilicata,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,Prato,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,Enna,Sicilia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,Arezzo,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,L'Aquila,Abruzzo,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,Avellino,Campania,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,Agrigento,Sicilia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,Macerata,Marche,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,Siracusa,Sicilia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,Benevento,Campania,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,Caserta,Campania,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,Brindisi,Puglia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,Viterbo,Lazio,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,111,111,Napoli,Campania,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,41,41,Firenze,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,Pistoia,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,Potenza,Basilicata,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,Crotone,Calabria,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,Pesaro e Urbino,Marche,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,6,0,Catania,Sicilia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,Grosseto,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,Teramo,Abruzzo,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,Foggia,Puglia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,Chieti,Abruzzo,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,Lucca,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,Bari,Puglia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,Trapani,Sicilia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,Massa Carrara,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,Isernia,Molise,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,101,0,Palermo,Sicilia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,Livorno,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,Ragusa,Sicilia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,Siena,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,Ascoli Piceno,Marche,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,Catanzaro,Calabria,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
+el_trv,0,0,Salerno,Campania,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010204,elemento tramviario,tramway element,el_trv
 el_vms,16069,0,Pescara,Abruzzo,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0101,strade,roads,010116,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms
 el_vms,63996,20,Taranto,Puglia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0101,strade,roads,010116,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms
 el_vms,50613,0,Messina,Sicilia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0101,strade,roads,010116,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms
@@ -1793,52 +1793,52 @@ gz_met,0,0,Siena,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility
 gz_met,0,0,Ascoli Piceno,Marche,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010207,giunzione di metropolitana,subway junction,gz_met
 gz_met,0,0,Catanzaro,Calabria,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010207,giunzione di metropolitana,subway junction,gz_met
 gz_met,0,0,Salerno,Campania,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010207,giunzione di metropolitana,subway junction,gz_met
-gz_trv,0,0,Pescara,Abruzzo,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Taranto,Puglia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Messina,Sicilia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Campobasso,Molise,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Ancona,Marche,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Vibo Valentia,Calabria,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Reggio di Calabria,Calabria,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Rieti,Lazio,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Pisa,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Caltanissetta,Sicilia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Matera,Basilicata,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Prato,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Enna,Sicilia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Arezzo,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,L'Aquila,Abruzzo,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Avellino,Campania,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Agrigento,Sicilia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Macerata,Marche,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Siracusa,Sicilia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Benevento,Campania,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Caserta,Campania,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Brindisi,Puglia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Viterbo,Lazio,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,2,2,Napoli,Campania,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Firenze,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Pistoia,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Potenza,Basilicata,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Crotone,Calabria,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Pesaro e Urbino,Marche,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Catania,Sicilia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Grosseto,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Teramo,Abruzzo,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Foggia,Puglia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Chieti,Abruzzo,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Lucca,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Bari,Puglia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Trapani,Sicilia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Massa Carrara,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Isernia,Molise,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Palermo,Sicilia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Livorno,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Ragusa,Sicilia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Siena,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Ascoli Piceno,Marche,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Catanzaro,Calabria,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
-gz_trv,0,0,Salerno,Campania,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tramway,gz_trv
+gz_trv,0,0,Pescara,Abruzzo,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Taranto,Puglia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Messina,Sicilia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Campobasso,Molise,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Ancona,Marche,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Vibo Valentia,Calabria,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Reggio di Calabria,Calabria,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Rieti,Lazio,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Pisa,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Caltanissetta,Sicilia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Matera,Basilicata,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Prato,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Enna,Sicilia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Arezzo,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,L'Aquila,Abruzzo,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Avellino,Campania,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Agrigento,Sicilia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Macerata,Marche,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Siracusa,Sicilia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Benevento,Campania,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Caserta,Campania,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Brindisi,Puglia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Viterbo,Lazio,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,2,2,Napoli,Campania,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Firenze,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Pistoia,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Potenza,Basilicata,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Crotone,Calabria,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Pesaro e Urbino,Marche,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Catania,Sicilia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Grosseto,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Teramo,Abruzzo,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Foggia,Puglia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Chieti,Abruzzo,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Lucca,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Bari,Puglia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Trapani,Sicilia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Massa Carrara,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Isernia,Molise,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Palermo,Sicilia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Livorno,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Ragusa,Sicilia,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Siena,Toscana,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Ascoli Piceno,Marche,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Catanzaro,Calabria,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
+gz_trv,0,0,Salerno,Campania,01,"viabilità, mobilità e trasporti","roads, mobility and transport",0102,ferrovie,railway,010205,giunzione tranviaria,tram junction,gz_trv
 invaso,491,0,Pescara,Abruzzo,04,idrografia,hydrography,0401,acque interne e di transizione,internal and transition waters,040103,invaso artificiale,artificial reservoir,invaso
 invaso,89,0,Taranto,Puglia,04,idrografia,hydrography,0401,acque interne e di transizione,internal and transition waters,040103,invaso artificiale,artificial reservoir,invaso
 invaso,680,0,Messina,Sicilia,04,idrografia,hydrography,0401,acque interne e di transizione,internal and transition waters,040103,invaso artificiale,artificial reservoir,invaso
