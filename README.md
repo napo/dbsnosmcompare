@@ -50,7 +50,3 @@ The same script is also available as a [Jupyter Notebook]() to allow for further
 this script compares the km of streets mapped and the square km of building surface in OpenStreeMap with the data distributed by the italian Military Geographic Institute in order to identify how much work done by the mappers cover the official data.<br>For each Italian province, a .parquet file is generated which contains information on:<ul><li>kilometers of streets present in the IGM data</li><li>kilometers of streets present in the OSM data</li><li>kilometers of streets identified in the OSM which are present in the IGM</li><li>square kilometers of the surface of the buildings present in the IGM data</li><li>square kilometers of the surface of the buildings present in the OSM data</li><li>square kilometers of the surface of the buildings identified in the OSM which are mapped in the IGM</li></ul><b>NOTE</b>:<br/>IGM acquires data from OpenStreetMap if it doesn't find a match from the official sources it examines.
 * show_data.ipynb
 this script aggregate the data generated from investigate_data.ipnyb
-* from_osm_declarations.ipynb
-this script extract the information about the declaration by IGM for each object collected in each dataset that comes from OpenStreetMap
-* dbsn_from_osm.ipynb
-this script aggregate the data extract from the script from_osm_declaraions.ipynb
