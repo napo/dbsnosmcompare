@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[36]:
+# In[23]:
 
 
 import geopandas as gpd
@@ -13,21 +13,21 @@ gdb_suffix = "_dbsn.gdb"
 #05_check_osm_data_coverage.py
 
 
-# In[37]:
+# In[24]:
 
 
 source_dir = "download"
 start_dir = os.getcwd()
 
 
-# In[38]:
+# In[25]:
 
 
 dir_list = os.listdir(source_dir)
 provincies = [f.replace("_poly.gpkg", "") for f in dir_list if "_poly.gpkg" in f]
 
 
-# In[39]:
+# In[26]:
 
 
 province_regioni = {'Matera': 'Basilicata',
@@ -92,7 +92,7 @@ province_regioni = {'Matera': 'Basilicata',
                      'Sud Sardegna':'Sardegna'}
 
 
-# In[40]:
+# In[27]:
 
 
 def getdata(osm_source,igm_source,prefix=source_dir + os.sep):
@@ -179,6 +179,8 @@ def getdata(osm_source,igm_source,prefix=source_dir + os.sep):
     osm_footways = lines_osm[lines_osm.highway.isin(['footway','cycleway','track','path','pedestrian','steps'])]
     all_streets_osm = pd.concat([osm_footways.geometry, osm_streets.geometry], ignore_index=True)
     all_streets_osm= gpd.GeoDataFrame(geometry=gpd.GeoSeries(all_streets_osm))    
+    province_border = gpd.read_file(igm_source,driver="FileGDB",layer="provin")
+    all_streets_osm = gpd.clip(all_streets_osm, province_border, keep_geom_type=True)
     data['osm_buildings'] = buildings_osm
     data['igm_buildings'] = all_buildings_igm
     #data['area_buildings_from_osm'] = [area_buildings_from_osm]
@@ -190,7 +192,7 @@ def getdata(osm_source,igm_source,prefix=source_dir + os.sep):
     return(data)
 
 
-# In[41]:
+# In[28]:
 
 
 def coverageBuildings(buildings_osm,buildings_igm):
@@ -205,7 +207,7 @@ def coverageBuildings(buildings_osm,buildings_igm):
     return(data)
 
 
-# In[42]:
+# In[29]:
 
 
 def coverageStreets(streets_osm,streets_igm):
@@ -218,7 +220,7 @@ def coverageStreets(streets_osm,streets_igm):
     return(data)
 
 
-# In[43]:
+# In[30]:
 
 
 data_analysis = pd.DataFrame()
@@ -238,7 +240,7 @@ for province in provincies:
         data_analysis.to_parquet(source_dir + os.sep + province+".parquet")
 
 
-# In[44]:
+# In[ ]:
 
 
 print("Done")
