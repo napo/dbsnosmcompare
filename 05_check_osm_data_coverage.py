@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[23]:
+# In[1]:
 
 
 import geopandas as gpd
@@ -13,21 +13,21 @@ gdb_suffix = "_dbsn.gdb"
 #05_check_osm_data_coverage.py
 
 
-# In[24]:
+# In[2]:
 
 
 source_dir = "download"
 start_dir = os.getcwd()
 
 
-# In[25]:
+# In[3]:
 
 
 dir_list = os.listdir(source_dir)
 provincies = [f.replace("_poly.gpkg", "") for f in dir_list if "_poly.gpkg" in f]
 
 
-# In[26]:
+# In[4]:
 
 
 province_regioni = {'Matera': 'Basilicata',
@@ -92,7 +92,7 @@ province_regioni = {'Matera': 'Basilicata',
                      'Sud Sardegna':'Sardegna'}
 
 
-# In[27]:
+# In[5]:
 
 
 def getdata(osm_source,igm_source,prefix=source_dir + os.sep):
@@ -192,7 +192,7 @@ def getdata(osm_source,igm_source,prefix=source_dir + os.sep):
     return(data)
 
 
-# In[28]:
+# In[6]:
 
 
 def coverageBuildings(buildings_osm,buildings_igm):
@@ -207,7 +207,7 @@ def coverageBuildings(buildings_osm,buildings_igm):
     return(data)
 
 
-# In[29]:
+# In[7]:
 
 
 def coverageStreets(streets_osm,streets_igm):
@@ -220,16 +220,76 @@ def coverageStreets(streets_osm,streets_igm):
     return(data)
 
 
-# In[30]:
+# In[8]:
 
 
 data_analysis = pd.DataFrame()
 nolist = [] #if you need to exclude some places simply
-# add the name in this way
-# nolist.append("name to exclude")
+# if you add names to the list following the correct syntax they will be excluded from the analysis
+# nolist.append("Nuoro")
+# nolist.append("Lecce")
+# nolist.append("Rieti")
+# nolist.append("Firenze")
+# nolist.append("Teramo")
+# nolist.append("Grosseto")
+# nolist.append("Pescara")
+# nolist.append("Sassari")
+# nolist.append("Macerata")
+# nolist.append("Messina")
+# nolist.append("Terni")
+# nolist.append("Caltanissetta")
+# nolist.append("Benevento")
+# nolist.append("Avellino")
+# nolist.append("Catanzaro")
+# nolist.append("Vibo Valentia")
+# nolist.append("Caserta")
+# nolist.append("Ancona")
+# nolist.append("Ascoli Piceno")
+# nolist.append("Arezzo")
+# nolist.append("Napoli")
+# nolist.append("Potenza")
+# nolist.append("Salerno")
+# nolist.append("Palermo")
+# nolist.append("Barletta-Andria-Trani")
+# nolist.append("Sud Sardegna")
+# nolist.append("Pisa")
+# nolist.append("Bari")
+# nolist.append("Matera")
+# nolist.append("Viterbo")
+# nolist.append("Reggio di Calabria")
+# nolist.append("Lucca")
+# nolist.append("Trapani")
+# nolist.append("Ragusa")
+# nolist.append("Enna")
+# nolist.append("Prato")
+# nolist.append("Isernia")
+# nolist.append("Crotone")
+# nolist.append("Livorno")
+# nolist.append("Fermo")
+# nolist.append("Cosenza")
+# nolist.append("Roma")
+# nolist.append("Latina")
+# nolist.append("Siracusa")
+# nolist.append("Massa Carrara")
+# nolist.append("Catania")
+# nolist.append("Frosinone")
+# nolist.append("Chieti")
+# nolist.append("Perugia")
+# nolist.append("Foggia")
+# nolist.append("Campobasso")
+# nolist.append("Cagliari")
+# nolist.append("Taranto")
+# nolist.append("L'Aquila")
+# nolist.append("Pesaro e Urbino")
+# nolist.append("Agrigento")
+# nolist.append("Oristano")
+# nolist.append("Pistoia")
+# nolist.append("Siena")
+# nolist.append("Brindisi")
 
 for province in provincies:
     if province not in nolist:
+        print(province)
         data_province = getdata(province+gpkg_suffix,province+gdb_suffix)
         data_buildings = coverageBuildings(data_province['osm_buildings'],data_province['igm_buildings'])
         data_streets = coverageStreets(data_province['osm_buildings'],data_province['igm_buildings'])
@@ -240,7 +300,7 @@ for province in provincies:
         data_analysis.to_parquet(source_dir + os.sep + province+".parquet")
 
 
-# In[ ]:
+# In[9]:
 
 
 print("Done")
