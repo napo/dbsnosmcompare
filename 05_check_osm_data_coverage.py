@@ -3,9 +3,9 @@
 
 # In[1]:
 
-
-import geopandas as gpd
 import os
+os.environ['USE_PYGEOS'] = '0'
+import geopandas as gpd
 import fiona
 import pandas as pd
 gpkg_suffix = "_poly.gpkg"
