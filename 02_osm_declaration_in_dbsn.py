@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-import geopandas as gpd
 import os
+os.environ['USE_PYGEOS'] = '0'
+import geopandas as gpd
 import fiona
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -15,6 +16,7 @@ start_dir = os.getcwd()
 dir_list = os.listdir(source_dir)
 provincies = [f.replace("_dbsn.gdb", "") for f in dir_list if "_dbsn.gdb" in f]
 exclude = [
+"Agrigento",
 "Catanzaro",
 "Benevento",
 "Brindisi",
@@ -67,6 +69,7 @@ exclude = [
 "Catania",
 "Firenze",
 "Latina",
+"Roma",
 "Sud Sardegna",
 "Isernia",
 "Terni",
@@ -74,7 +77,6 @@ exclude = [
 "Potenza",
 "Siracusa"
 ]
-exclude = []
 
 # In[6]:
 

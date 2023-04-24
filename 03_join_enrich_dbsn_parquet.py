@@ -97,7 +97,7 @@ data_igm_osm.rename(columns={'provice':'province'},inplace=True)
 data = pd.merge(data_igm_osm, description_data, left_on="name", right_on="layer_name")
 
 
-data.to_parquet(start_dir + os.sep + dest_dir + os.sep + "data_igm_proveniance_osm_provincies.parquet")
+data.to_parquet(start_dir + os.sep + dest_dir + os.sep + "data_igm_provenance_osm_provincies.parquet")
 
-data.to_csv(start_dir + os.sep + dest_dir + os.sep  + "data_igm_proveniance_osm_provincies.csv",index=False)
+data.to_csv(start_dir + os.sep + dest_dir + os.sep  + "data_igm_provenance_osm_provincies.csv",index=False)
 
