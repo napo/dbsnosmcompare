@@ -21,8 +21,9 @@ start_dir = os.getcwd()
 
 
 dir_list = os.listdir(source_dir)
+print(dir_list)
 provincies = [f.replace("_poly.gpkg", "") for f in dir_list if "_poly.gpkg" in f]
-
+print(provincies)
 
 # In[4]:
 
@@ -277,12 +278,13 @@ nolist.append("Cagliari")
 nolist.append("Taranto")
 nolist.append("L'Aquila")
 nolist.append("Pesaro e Urbino")
-#nolist.append("Agrigento")
-#nolist.append("Sud Sardegna")
+nolist.append("Agrigento")
+nolist.append("Sud Sardegna")
 nolist.append("Oristano")
 nolist.append("Pistoia")
 nolist.append("Siena")
 nolist.append("Brindisi")
+nolist = []
 
 for province in provincies:
     if province not in nolist:
