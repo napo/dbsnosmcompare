@@ -16,7 +16,7 @@ start_dir = os.getcwd()
 dir_list = os.listdir(source_dir)
 provincies = [f.replace("_dbsn.gdb", "") for f in dir_list if "_dbsn.gdb" in f]
 exclude = [
-#"Agrigento",
+"Agrigento",
 "Catanzaro",
 "Benevento",
 "Brindisi",
@@ -70,13 +70,14 @@ exclude = [
 "Firenze",
 "Latina",
 "Roma",
-#"Sud Sardegna",
+"Sud Sardegna",
 "Isernia",
 "Terni",
 "Campobasso",
 "Potenza",
 "Siracusa"
 ]
+exclude = []
 
 # In[6]:
 
@@ -90,6 +91,7 @@ os.chdir(source_dir)
 for province in provincies:
      print(province)
      if province not in exclude:
+          print("parsing ... " + province) 
           dfdata = []
           filename = province + "_dbsn.gdb"
           igm_layers_list = fiona.listlayers(filename)
@@ -111,4 +113,3 @@ for province in provincies:
                dfdata.append(fdata)
           pd.DataFrame(dfdata).to_parquet(start_dir + os.sep + source_dir + os.sep + province + "_dbsn.parquet",index=False)
           pd.DataFrame(dfdata).to_csv(start_dir + os.sep + source_dir + os.sep + province + "_dbsn.csv",index=False)  
-     print("next")
