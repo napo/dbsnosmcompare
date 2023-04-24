@@ -16,7 +16,7 @@ start_dir = os.getcwd()
 dir_list = os.listdir(source_dir)
 provincies = [f.replace("_dbsn.gdb", "") for f in dir_list if "_dbsn.gdb" in f]
 exclude = [
-"Agrigento",
+#"Agrigento",
 "Catanzaro",
 "Benevento",
 "Brindisi",
@@ -70,7 +70,7 @@ exclude = [
 "Firenze",
 "Latina",
 "Roma",
-"Sud Sardegna",
+#"Sud Sardegna",
 "Isernia",
 "Terni",
 "Campobasso",
