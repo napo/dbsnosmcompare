@@ -71,7 +71,7 @@ regions = df1.merge(df2).merge(df3).merge(df4).merge(df5).merge(df6)
 # In[9]:
 
 
-regions.to_csv(start_dir + os.sep + dest_dir + os.sep + "regions_osm_igm_comparison.csv.csv",index=False)
+regions.to_csv(start_dir + os.sep + dest_dir + os.sep + "regions_osm_igm_comparison.csv",index=False)
 
 
 # In[10]:
