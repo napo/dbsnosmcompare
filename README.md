@@ -34,7 +34,7 @@ However, since it is open data, the Italian OpenStreetMap community has created 
 The directory [data](https://github.com/napo/dbsnosmcompare/tree/main/data) contains the results.
 <br/>
 Here a representation of the percentage of data from OpenStreetMap declared of the data of the Military Geographical Institute for the available Italian regions.<br/>
-![](https://raw.githubusercontent.com/napo/dbsnosmcompare/main/image/output_italy.png)
+![](https://raw.githubusercontent.com/napo/dbsnosmcompare/main/image/percent_osm_by_region_and_category.png)
 
 
 ## Scripts
