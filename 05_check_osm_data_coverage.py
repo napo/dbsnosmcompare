@@ -101,71 +101,71 @@ def getdata(osm_source,igm_source,prefix=source_dir + os.sep):
     lines_osm = gpd.read_file(osm_source,layer="lines",driver="GPKG")
     multipolygons_osm = gpd.read_file(osm_source,layer="multipolygons",driver="GPKG")
     buildings_osm = multipolygons_osm.dropna(subset=['building'])
-    all_buildings_osm = pd.concat([buildings_osm.geometry, 
-                                   multipolygons_osm.dropna(subset=['shop']).geometry, 
-                                    multipolygons_osm.dropna(subset=['amenity']).geometry, 
-                                    multipolygons_osm.dropna(subset=['craft']).geometry,
-                                    multipolygons_osm.dropna(subset=['military']).geometry,
-                                    multipolygons_osm.dropna(subset=['office']).geometry,
-                                    multipolygons_osm.dropna(subset=['tourism']).geometry],
-                                  ignore_index=True)
+    #all_buildings_osm = pd.concat([buildings_osm.geometry, 
+                                #    multipolygons_osm.dropna(subset=['shop']).geometry, 
+                                #     multipolygons_osm.dropna(subset=['amenity']).geometry, 
+                                #     multipolygons_osm.dropna(subset=['craft']).geometry,
+                                #     multipolygons_osm.dropna(subset=['military']).geometry,
+                                #     multipolygons_osm.dropna(subset=['office']).geometry,
+                                #     multipolygons_osm.dropna(subset=['tourism']).geometry],
+    #                              ignore_index=True)
     buildings_igm = gpd.read_file(igm_source,driver="FileGDB",layer="edifc")
     buildings_igm_small = gpd.read_file(igm_source,driver="FileGDB",layer="edi_min")
     #all_buildings_igm = pd.concat([buildings_igm_small.geometry, buildings_igm.geometry], ignore_index=True)
     #all_buildings_igm = gpd.GeoDataFrame(geometry=gpd.GeoSeries(all_buildings_igm))
-    buildings_osm = all_buildings_osm.to_crs(buildings_igm.crs)
+    buildings_osm = buildings_osm.to_crs(buildings_igm.crs)
     
-    # add_igm_streets = False
-    # add_igm_footway = False
-    # add_igm_mix = False
-    # streets_igm_sources = []
-    # length_streets_from_osm = 0
-    # if "tr_str" in igm_layers_list:
-    #     igm_streets = gpd.read_file(igm_source,layer="tr_str")
-    #     igm_strees_in_osm = igm_streets
-    #     if igm_strees_in_osm.shape[0] > 0:
-    #         length_streets_from_osm = igm_strees_in_osm.length.sum()
-    #     add_igm_streets= True
-    #     streets_igm_sources.append(pd.DataFrame(igm_streets.meta_ist.value_counts()).reset_index().rename(columns={"index":"meta_ist","meta_ist":"totale"}))
-    # if "ar_vms" in igm_layers_list:    
-    #     igm_footway = gpd.read_file(igm_source,layer="ar_vms")
-    #     #igm_footway = igm_footway.replace(to_replace='.*=>.*', value='03', regex=True)
-    #     #igm_strees_in_osm = igm_footway[igm_footway.meta_ist == "03"]
-    #     if igm_strees_in_osm.shape[0] > 0:
-    #         length_streets_from_osm += igm_strees_in_osm.length.sum()
-    #     add_igm_footway = True
-    #     streets_igm_sources.append(pd.DataFrame(igm_footway.meta_ist.value_counts()).reset_index().rename(columns={"index":"meta_ist","meta_ist":"totale"}))
-    # if "el_vms" in igm_layers_list:
-    #     igm_mix = gpd.read_file(igm_source,layer="el_vms")
-    #     #igm_mix = igm_mix.replace(to_replace='.*=>.*', value='03', regex=True)
-    #     #igm_strees_in_osm = igm_mix[igm_mix.meta_ist == "03"]
-    #     if igm_strees_in_osm.shape[0] > 0:
-    #         length_streets_from_osm += igm_strees_in_osm.length.sum()
-    #     add_igm_mix = True
-    # streets_igm_sources.append(pd.DataFrame(igm_mix.meta_ist.value_counts()).reset_index().rename(columns={"index":"meta_ist","meta_ist":"totale"}))
-    # lines_osm = lines_osm.to_crs(igm_streets.crs)
-    # if add_igm_streets:
-    #     all_streets_igm = igm_streets
-    # if add_igm_footway:
-    #     all_streets_igm = pd.concat([all_streets_igm.geometry, igm_footway.geometry], ignore_index=True)
-    # if add_igm_mix:
-    #     all_streets_igm = pd.concat([all_streets_igm.geometry, igm_mix.geometry], ignore_index=True)
-    # count_streets_igm_sources = pd.DataFrame()
-    # for strestreets_igm_source in streets_igm_sources:
-    #     count_streets_igm_sources = pd.concat([count_streets_igm_sources, strestreets_igm_source])
-    # count_streets_igm_sources = count_streets_igm_sources.groupby('meta_ist').sum().reset_index()
-    # for idx in count_streets_igm_sources.meta_ist.unique():
-    #     #if idx.find("=>") > -1:
-    #     #    street_source["streets_source_03"] = count_streets_igm_sources[count_streets_igm_sources.meta_ist == idx].totale.values[0]
-    #     #else:
-    #     street_source["streets_source_" + idx] = count_streets_igm_sources[count_streets_igm_sources.meta_ist == idx].totale.values[0]
-    # all_streets_igm= gpd.GeoDataFrame(geometry=gpd.GeoSeries(all_streets_igm))  
-    # osm_streets = lines_osm[lines_osm.highway.isin(['unclassified','trunk_link','trunk','tertiary_link','tertiary', 'service', 'secondary_link','secondary','road','residential','primary_link','primary','pedestrian','living_street','construction'])]
-    # osm_footways = lines_osm[lines_osm.highway.isin(['footway','cycleway','track','path','pedestrian','steps'])]
-    # all_streets_osm = pd.concat([osm_footways.geometry, osm_streets.geometry], ignore_index=True)
-    # all_streets_osm= gpd.GeoDataFrame(geometry=gpd.GeoSeries(all_streets_osm))    
-    # province_border = gpd.read_file(igm_source,driver="FileGDB",layer="provin")
-    # all_streets_osm = gpd.clip(all_streets_osm, province_border, keep_geom_type=True)
+    add_igm_streets = False
+    add_igm_footway = False
+    add_igm_mix = False
+    streets_igm_sources = []
+    length_streets_from_osm = 0
+    if "tr_str" in igm_layers_list:
+        igm_streets = gpd.read_file(igm_source,layer="tr_str")
+        igm_strees_in_osm = igm_streets
+        if igm_strees_in_osm.shape[0] > 0:
+            length_streets_from_osm = igm_strees_in_osm.length.sum()
+        add_igm_streets= True
+        streets_igm_sources.append(pd.DataFrame(igm_streets.meta_ist.value_counts()).reset_index().rename(columns={"index":"meta_ist","meta_ist":"totale"}))
+    #if "ar_vms" in igm_layers_list:    
+    #    igm_footway = gpd.read_file(igm_source,layer="ar_vms")
+        #igm_footway = igm_footway.replace(to_replace='.*=>.*', value='03', regex=True)
+        #igm_strees_in_osm = igm_footway[igm_footway.meta_ist == "03"]
+    #    if igm_strees_in_osm.shape[0] > 0:
+    #        length_streets_from_osm += igm_strees_in_osm.length.sum()
+    #    add_igm_footway = True
+    #    streets_igm_sources.append(pd.DataFrame(igm_footway.meta_ist.value_counts()).reset_index().rename(columns={"index":"meta_ist","meta_ist":"totale"}))
+    if "el_vms" in igm_layers_list:
+        igm_mix = gpd.read_file(igm_source,layer="el_vms")
+        #igm_mix = igm_mix.replace(to_replace='.*=>.*', value='03', regex=True)
+        #igm_strees_in_osm = igm_mix[igm_mix.meta_ist == "03"]
+        if igm_strees_in_osm.shape[0] > 0:
+            length_streets_from_osm += igm_strees_in_osm.length.sum()
+        add_igm_mix = True
+    streets_igm_sources.append(pd.DataFrame(igm_mix.meta_ist.value_counts()).reset_index().rename(columns={"index":"meta_ist","meta_ist":"totale"}))
+    lines_osm = lines_osm.to_crs(igm_streets.crs)
+    if add_igm_streets:
+        all_streets_igm = igm_streets
+    #if add_igm_footway:
+    #    all_streets_igm = pd.concat([all_streets_igm.geometry, igm_footway.geometry], ignore_index=True)
+    if add_igm_mix:
+        all_streets_igm = pd.concat([all_streets_igm.geometry, igm_mix.geometry], ignore_index=True)
+    count_streets_igm_sources = pd.DataFrame()
+    for strestreets_igm_source in streets_igm_sources:
+        count_streets_igm_sources = pd.concat([count_streets_igm_sources, strestreets_igm_source])
+    count_streets_igm_sources = count_streets_igm_sources.groupby('meta_ist').sum().reset_index()
+    for idx in count_streets_igm_sources.meta_ist.unique():
+        #if idx.find("=>") > -1:
+        #    street_source["streets_source_03"] = count_streets_igm_sources[count_streets_igm_sources.meta_ist == idx].totale.values[0]
+        #else:
+        street_source["streets_source_" + idx] = count_streets_igm_sources[count_streets_igm_sources.meta_ist == idx].totale.values[0]
+    all_streets_igm= gpd.GeoDataFrame(geometry=gpd.GeoSeries(all_streets_igm))  
+    osm_streets = lines_osm[lines_osm.highway.isin(['unclassified','trunk_link','trunk','tertiary_link','tertiary', 'service', 'secondary_link','secondary','road','residential','primary_link','primary','pedestrian','living_street','construction'])]
+    osm_footways = lines_osm[lines_osm.highway.isin(['footway','cycleway','track','path','pedestrian','steps'])]
+    all_streets_osm = pd.concat([osm_footways.geometry, osm_streets.geometry], ignore_index=True)
+    all_streets_osm= gpd.GeoDataFrame(geometry=gpd.GeoSeries(all_streets_osm))    
+    province_border = gpd.read_file(igm_source,driver="FileGDB",layer="provin")
+    all_streets_osm = gpd.clip(all_streets_osm, province_border, keep_geom_type=True)
     data['osm_buildings'] = buildings_osm
     data['igm_buildings'] = buildings_igm
     data['igm_buildings_small'] = buildings_igm_small
@@ -236,7 +236,7 @@ nolist = [] #if you need to exclude some places simply
 #if you add names to the list following the correct syntax they will be excluded from the analysis
 nolist.append("Nuoro")
 nolist.append("Lecce")
-#nolist.append("Rieti")
+nolist.append("Rieti")
 nolist.append("Firenze")
 nolist.append("Teramo")
 nolist.append("Grosseto")
@@ -294,15 +294,15 @@ nolist.append("Oristano")
 nolist.append("Pistoia")
 nolist.append("Siena")
 nolist.append("Brindisi")
-
+nolist = []
 
 for province in provincies:
     if province not in nolist:
         print(province)
         data_province = getdata(province+gpkg_suffix,province+gdb_suffix)
         data_buildings = coverageBuildings(data_province['osm_buildings'],data_province['igm_buildings'],data_province['igm_buildings_small'])
-        #data_streets = coverageStreets(data_province['osm_streets'],data_province['igm_streets'])
-        #data_buildings.update(data_streets)
+        data_streets = coverageStreets(data_province['osm_streets'],data_province['igm_streets'])
+        data_buildings.update(data_streets)
         data_buildings['province'] = [province]
         data_buildings['region'] = [province_regioni[province]]
         data_analysis = pd.DataFrame(data=data_buildings)
