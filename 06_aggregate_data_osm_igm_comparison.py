@@ -26,12 +26,12 @@ datafiles = []
 for f in data_files:
     if (f.find("_dbsn") == -1):
         datafiles.append(pd.read_parquet(f))
-#data_igm_osm = pd.concat(datafiles)
-data_igm_osm = datafiles[0]
-n = 1
-while(n < len(datafiles)):
-    data_igm_osm = data_igm_osm.append(datafiles[n])
-    n += 1
+data_igm_osm = pd.concat(datafiles)
+#data_igm_osm = datafiles[0]
+#n = 1
+#while(n < len(datafiles)):
+#    data_igm_osm = data_igm_osm.append(datafiles[n])
+#    n += 1
 data_igm_osm = data_igm_osm.fillna(0).reset_index()
 del data_igm_osm['index']
 columns = data_igm_osm.columns.unique()
@@ -41,14 +41,14 @@ columns = data_igm_osm.columns.unique()
 
 
 # conversion in km
-data_igm_osm.area_igm_buildings = data_igm_osm.area_igm_buildings / 1000
-data_igm_osm.osm_in_igm_streets_length = data_igm_osm.osm_in_igm_streets_length / 1000
-data_igm_osm.area_igm_buildings = data_igm_osm.area_igm_buildings / 1000
-data_igm_osm.area_osm_buildings = data_igm_osm.area_osm_buildings / 1000
-data_igm_osm.osm_streets_length = data_igm_osm.osm_streets_length / 1000
-data_igm_osm.igm_streets_length = data_igm_osm.igm_streets_length / 1000
-data_igm_osm.area_osm_in_igm_buildings = data_igm_osm.area_osm_in_igm_buildings / 1000
-data_igm_osm.osm_in_igm_streets_length = data_igm_osm.osm_in_igm_streets_length / 1000
+# data_igm_osm.area_igm_buildings = data_igm_osm.area_igm_buildings / 1000
+# data_igm_osm.osm_in_igm_streets_length = data_igm_osm.osm_in_igm_streets_length / 1000
+# data_igm_osm.area_igm_buildings = data_igm_osm.area_igm_buildings / 1000
+# data_igm_osm.area_osm_buildings = data_igm_osm.area_osm_buildings / 1000
+# data_igm_osm.osm_streets_length = data_igm_osm.osm_streets_length / 1000
+# data_igm_osm.igm_streets_length = data_igm_osm.igm_streets_length / 1000
+# data_igm_osm.area_osm_in_igm_buildings = data_igm_osm.area_osm_in_igm_buildings / 1000
+# data_igm_osm.osm_in_igm_streets_length = data_igm_osm.osm_in_igm_streets_length / 1000
 
 
 # In[5]:
