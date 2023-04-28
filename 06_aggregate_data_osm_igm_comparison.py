@@ -26,7 +26,12 @@ datafiles = []
 for f in data_files:
     if (f.find("_dbsn") == -1):
         datafiles.append(pd.read_parquet(f))
-data_igm_osm = pd.concat(datafiles)
+#data_igm_osm = pd.concat(datafiles)
+data_igm_osm = datafiles[0]
+n = 1
+while(n < len(datafiles)):
+    data_igm_osm = data_igm_osm.append(datafiles[n])
+    n += 1
 data_igm_osm = data_igm_osm.fillna(0).reset_index()
 del data_igm_osm['index']
 columns = data_igm_osm.columns.unique()
@@ -78,4 +83,4 @@ regions.to_csv(start_dir + os.sep + dest_dir + os.sep + "regions_osm_igm_compari
 
 
 data_igm_osm.to_csv(start_dir + os.sep + dest_dir + os.sep + "provinces_osm_igm_comparison.csv",index=False)
-
+print("Done")
