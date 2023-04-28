@@ -169,8 +169,8 @@ def getdata(osm_source,igm_source,prefix=source_dir + os.sep):
     data['osm_buildings'] = buildings_osm
     data['igm_buildings'] = buildings_igm
     data['igm_buildings_small'] = buildings_igm_small
-    #data['igm_streets'] = all_streets_igm
-    #data['osm_streets'] = all_streets_osm
+    data['igm_streets'] = all_streets_igm
+    data['osm_streets'] = all_streets_osm
     #data['igm_streets_sources'] = street_source 
     return(data)
 
