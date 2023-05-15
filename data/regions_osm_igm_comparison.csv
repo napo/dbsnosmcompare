@@ -1,13 +1,157 @@
-region,area_igm_buildings,area_osm_buildings,area_osm_in_igm_buildings,igm_streets_length,osm_streets_length,osm_in_igm_streets_length
-Abruzzo,110297331.84048866,48557681.69147088,44020636.17921418,56224277.26005661,44544421.39352969,40039149.437355965
-Basilicata,50891328.37035759,22085358.822324924,11419154.529552512,27094430.876562957,12995619.882337084,12346750.152609877
-Calabria,147886476.327539,51247696.086293876,39679995.07984885,97608454.57050814,44079080.21961635,41195152.282421805
-Campania,293487595.1557443,150633528.5682035,140913586.7845836,92203243.36960591,60652280.07860318,54930040.38813327
-Lazio,305527842.6784213,229027685.0037921,214062318.3195895,90024710.18703829,74784050.83282226,63611976.639214486
-Marche,111001832.35572714,63149687.241529614,54570549.040773205,43841060.84259916,40769121.94230548,34625827.03313354
-Molise,26587416.948809877,12611546.354492683,9991527.257913414,17007671.04254416,14375904.377405856,13432344.702216279
-Puglia,263859014.8016976,290942621.25636023,251298511.60708088,103466702.78286014,82877528.4787166,75265773.16494408
-Sardegna,138863219.01237008,136251992.93056738,110266563.66902882,121537832.46840596,74828049.15372223,69196420.50583582
-Sicilia,301469497.5397592,159121363.81337783,149392725.22344685,129579965.02449024,92119077.27505584,83163308.13376941
-Toscana,236529512.16832575,246700877.35138628,183406126.00688386,126336844.1629184,105785501.56470762,92697987.68817365
-Umbria,76404808.48135552,39370479.94832567,35435902.11525419,32040063.782526564,33627419.77902575,30020787.28289109
+region,name_it,name_en,layer_name,osm_objects,total_objects,percentage
+Abruzzo,area a servizio del trasporto su ferro,area of ​​transport on iron transport,sv_fer,1,81,1.235
+Abruzzo,area estrattiva,extractive area,cv_aes,6,606,0.99
+Abruzzo,edificio,building,edifc,283,525767,0.054
+Abruzzo,edificio minore,minor building,edi_min,2,194004,0.001
+Abruzzo,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,3,154553,0.002
+Abruzzo,giunzione ferroviaria,railway junction,gz_fer,5,5683,0.088
+Abruzzo,manufatto d'infrastruttura di trasporto,transport infrastructure artifact,man_tr,6,76,7.895
+Abruzzo,opera portuale e di difesa delle coste,port and defense of the coasts,op_por,29,579,5.009
+Abruzzo,sostegno a traliccio,pylicc,tralic,2,12940,0.015
+Abruzzo,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,4,1144,0.35
+Abruzzo,tratto stradale,road,tr_str,4,352322,0.001
+Abruzzo,unità insediativa,settlement unit,pe_uins,32,1328,2.41
+Basilicata,edificio minore,minor building,edi_min,4,140087,0.003
+Basilicata,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,82,107361,0.076
+Basilicata,manufatto industriale,industrial artefact,mn_ind,9,31718,0.028
+Basilicata,sostegno a traliccio,pylicc,tralic,182,19073,0.954
+Basilicata,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,20,1551,1.289
+Basilicata,tratto stradale,road,tr_str,1247,135347,0.921
+Basilicata,unità insediativa,settlement unit,pe_uins,1,2169,0.046
+Calabria,area a servizio aeroportuale,airport service area,sv_aer,7,15,46.667
+Calabria,attrezzatura sportiva,sports equipment,attr_sp,5,6527,0.077
+Calabria,discarica,dump,cv_dis,12,82,14.634
+Calabria,edificio,building,edifc,19,744462,0.003
+Calabria,edificio minore,minor building,edi_min,3,352699,0.001
+Calabria,elemento ferroviario,railway element,el_fer,5,6879,0.073
+Calabria,giunzione ferroviaria,railway junction,gz_fer,174,409,42.543
+Calabria,manufatto d'infrastruttura di trasporto,transport infrastructure artifact,man_tr,6,48,12.5
+Calabria,manufatto industriale,industrial artefact,mn_ind,680,33621,2.023
+Calabria,sostegno a traliccio,pylicc,tralic,4215,46373,9.089
+Calabria,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,11,14409,0.076
+Calabria,tratto stradale,road,tr_str,126,442524,0.028
+Calabria,unità insediativa,settlement unit,pe_uins,301,4847,6.21
+Campania,area di scavo o discarica,excavation or landfill area,sc_dis,3,474,0.633
+Campania,diga,dam,diga,3,28,10.714
+Campania,discarica,dump,cv_dis,1,98,1.02
+Campania,edificio,building,edifc,69,968718,0.007
+Campania,elemento di metropolitana,metro element,el_met,219,219,100.0
+Campania,elemento di trasporto a fune,fune transport element,el_fne,1,5,20.0
+Campania,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,681,481180,0.142
+Campania,elemento ferroviario,railway element,el_fer,5633,5634,99.982
+Campania,elemento funicolare,funicular element,el_fun,17,33,51.515
+Campania,elemento tramviario,tramway element,el_trv,111,111,100.0
+Campania,giunzione di metropolitana,subway junction,gz_met,28,28,100.0
+Campania,giunzione ferroviaria,railway junction,gz_fer,164,928,17.672
+Campania,giunzione tranviaria,tram junction,gz_trv,2,2,100.0
+Campania,invaso artificiale,artificial reservoir,invaso,10,741,1.35
+Campania,manufatto industriale,industrial artefact,mn_ind,1271,73529,1.729
+Campania,manufatto monumentale e di arredo urbano,monumental artifact and urban furniture,mn_mau,4,42,9.524
+Campania,opera portuale e di difesa delle coste,port and defense of the coasts,op_por,2,865,0.231
+Campania,sostegno a traliccio,pylicc,tralic,74,25185,0.294
+Campania,specchio d'acqua,water mirror,sp_acq,4,204,1.961
+Campania,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,133,3055,4.354
+Campania,tratto stradale,road,tr_str,164817,219710,75.016
+Campania,unità insediativa,settlement unit,pe_uins,180,3390,5.31
+Lazio,area estrattiva,extractive area,cv_aes,20,370,5.405
+Lazio,edificio,building,edifc,1,1072316,0.0
+Lazio,edificio minore,minor building,edi_min,127,705822,0.018
+Lazio,elemento di metropolitana,metro element,el_met,363,385,94.286
+Lazio,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,228,669241,0.034
+Lazio,elemento ferroviario,railway element,el_fer,12,17535,0.068
+Lazio,elemento funicolare,funicular element,el_fun,3,3,100.0
+Lazio,elemento tramviario,tramway element,el_trv,72,72,100.0
+Lazio,giunzione di metropolitana,subway junction,gz_met,39,49,79.592
+Lazio,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,1,319881,0.0
+Lazio,tratto stradale,road,tr_str,31,248632,0.012
+Lazio,unità insediativa,settlement unit,pe_uins,38,7639,0.497
+Marche,edificio,building,edifc,570,437988,0.13
+Marche,edificio minore,minor building,edi_min,8,3910,0.205
+Marche,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,115,68141,0.169
+Marche,elemento ferroviario,railway element,el_fer,137,2239,6.119
+Marche,opera portuale e di difesa delle coste,port and defense of the coasts,op_por,368,544,67.647
+Marche,tratto stradale,road,tr_str,6980,129952,5.371
+Marche,unità insediativa,settlement unit,pe_uins,36,1575,2.286
+Molise,area a servizio aeroportuale,airport service area,sv_aer,3,3,100.0
+Molise,area estrattiva,extractive area,cv_aes,17,76,22.368
+Molise,area verde,green area,ar_vrd,124,124,100.0
+Molise,attrezzatura sportiva,sports equipment,attr_sp,552,675,81.778
+Molise,coltura agricola,agricultural culture,cl_agr,179,5739,3.119
+Molise,discarica,dump,cv_dis,1,5,20.0
+Molise,edificio,building,edifc,42,232152,0.018
+Molise,elemento di trasporto a fune,fune transport element,el_fne,1,1,100.0
+Molise,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,636,8634,7.366
+Molise,elemento ferroviario,railway element,el_fer,58,945,6.138
+Molise,manufatto d'infrastruttura di trasporto,transport infrastructure artifact,man_tr,14,16,87.5
+Molise,manufatto industriale,industrial artefact,mn_ind,13,1069,1.216
+Molise,manufatto monumentale e di arredo urbano,monumental artifact and urban furniture,mn_mau,24,24,100.0
+Molise,sostegno a traliccio,pylicc,tralic,3563,3605,98.835
+Molise,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,220,234,94.017
+Molise,tratto stradale,road,tr_str,9988,41572,24.026
+Molise,unità insediativa,settlement unit,pe_uins,287,478,60.042
+Puglia,area a servizio aeroportuale,airport service area,sv_aer,1,30,3.333
+Puglia,area estrattiva,extractive area,cv_aes,18,566,3.18
+Puglia,attrezzatura sportiva,sports equipment,attr_sp,2,16072,0.012
+Puglia,discarica,dump,cv_dis,8,288,2.778
+Puglia,edificio,building,edifc,152,1001753,0.015
+Puglia,edificio minore,minor building,edi_min,83,338780,0.024
+Puglia,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,168,534394,0.031
+Puglia,localizzazione di manufatto industriale/di trasporto,location of industrial artifact/transport,mn_int,3,41650,0.007
+Puglia,manufatto industriale,industrial artefact,mn_ind,1131,141078,0.802
+Puglia,manufatto monumentale e di arredo urbano,monumental artifact and urban furniture,mn_mau,3,2110,0.142
+Puglia,sostegno a traliccio,pylicc,tralic,18323,25828,70.942
+Puglia,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,7,9070,0.077
+Puglia,tratto stradale,road,tr_str,2303,297251,0.775
+Puglia,unità insediativa,settlement unit,pe_uins,303,5968,5.077
+Sardegna,edificio minore,minor building,edi_min,2,96644,0.002
+Sardegna,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,125,433437,0.029
+Sardegna,elemento tramviario,tramway element,el_trv,62,62,100.0
+Sardegna,tratto stradale,road,tr_str,2685,370007,0.726
+Sardegna,unità insediativa,settlement unit,pe_uins,6,3814,0.157
+Sicilia,area a servizio aeroportuale,airport service area,sv_aer,3,29,10.345
+Sicilia,area estrattiva,extractive area,cv_aes,119,302,39.404
+Sicilia,attrezzatura sportiva,sports equipment,attr_sp,398,11965,3.326
+Sicilia,diga,dam,diga,5,66,7.576
+Sicilia,edificio,building,edifc,1863,1276197,0.146
+Sicilia,edificio minore,minor building,edi_min,39,330633,0.012
+Sicilia,elemento di trasporto a fune,fune transport element,el_fne,2,10,20.0
+Sicilia,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,1709,440807,0.388
+Sicilia,elemento ferroviario,railway element,el_fer,137,10127,1.353
+Sicilia,manufatto d'infrastruttura di trasporto,transport infrastructure artifact,man_tr,22,390,5.641
+Sicilia,manufatto industriale,industrial artefact,mn_ind,395,100439,0.393
+Sicilia,manufatto monumentale e di arredo urbano,monumental artifact and urban furniture,mn_mau,41,1634,2.509
+Sicilia,sostegno a traliccio,pylicc,tralic,20,41828,0.048
+Sicilia,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,2,1061,0.189
+Sicilia,tratto stradale,road,tr_str,20969,377660,5.552
+Sicilia,unità insediativa,settlement unit,pe_uins,373,3266,11.421
+Toscana,area a servizio stradale,road service area,sv_str,1,165,0.606
+Toscana,area estrattiva,extractive area,cv_aes,3,1627,0.184
+Toscana,attrezzatura sportiva,sports equipment,attr_sp,62,5701,1.088
+Toscana,discarica,dump,cv_dis,2,59,3.39
+Toscana,edificio,building,edifc,3498,1607068,0.218
+Toscana,edificio minore,minor building,edi_min,260,570103,0.046
+Toscana,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,21900,310401,7.055
+Toscana,elemento ferroviario,railway element,el_fer,5,8909,0.056
+Toscana,elemento tramviario,tramway element,el_trv,41,41,100.0
+Toscana,manufatto d'infrastruttura di trasporto,transport infrastructure artifact,man_tr,1,213,0.469
+Toscana,manufatto industriale,industrial artefact,mn_ind,58,53980,0.107
+Toscana,sostegno a traliccio,pylicc,tralic,1870,22652,8.255
+Toscana,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,4664,4685,99.552
+Toscana,tratto stradale,road,tr_str,1548,373148,0.415
+Toscana,unità insediativa,settlement unit,pe_uins,1339,8246,16.238
+Umbria,area a servizio aeroportuale,airport service area,sv_aer,1,16,6.25
+Umbria,area estrattiva,extractive area,cv_aes,10,132,7.576
+Umbria,attrezzatura sportiva,sports equipment,attr_sp,87,5325,1.634
+Umbria,edificio,building,edifc,59,455111,0.013
+Umbria,edificio minore,minor building,edi_min,3308,90263,3.665
+Umbria,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,25613,26857,95.368
+Umbria,elemento ferroviario,railway element,el_fer,2295,2374,96.672
+Umbria,elemento funicolare,funicular element,el_fun,1,8,12.5
+Umbria,giunzione ferroviaria,railway junction,gz_fer,4,199,2.01
+Umbria,manufatto d'infrastruttura di trasporto,transport infrastructure artifact,man_tr,3,40,7.5
+Umbria,manufatto industriale,industrial artefact,mn_ind,16,14221,0.113
+Umbria,nodo della rete elettrica,electric network node,nd_ele,7,4149,0.169
+Umbria,sostegno a traliccio,pylicc,tralic,1928,29308,6.578
+Umbria,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,11,3410,0.323
+Umbria,tratto stradale,road,tr_str,60799,63073,96.395
+Umbria,unità insediativa,settlement unit,pe_uins,261,1381,18.899
