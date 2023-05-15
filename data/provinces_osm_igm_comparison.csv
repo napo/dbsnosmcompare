@@ -1,475 +1,61 @@
-province,name_it,name_en,layer_name,osm_objects,total_objects,percent,category_en,region
-Agrigento,area estrattiva,extractive area,cv_aes,25,35,71.429,quarries-dumps,Sicilia
-Agrigento,attrezzatura sportiva,sports equipment,attr_sp,142,1027,13.827,man-made construction,Sicilia
-Agrigento,diga,dam,diga,3,12,25.0,"hydraulic, defence and hydraulic regulation works",Sicilia
-Agrigento,edificio,building,edifc,34,133678,0.025,buildings,Sicilia
-Agrigento,edificio minore,minor building,edi_min,8,39567,0.02,buildings,Sicilia
-Agrigento,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,247,76500,0.323,roads,Sicilia
-Agrigento,elemento ferroviario,railway element,el_fer,15,1031,1.455,railway,Sicilia
-Agrigento,manufatto industriale,industrial artefact,mn_ind,151,13641,1.107,man-made construction,Sicilia
-Agrigento,manufatto monumentale e di arredo urbano,monumental artifact and urban furniture,mn_mau,22,93,23.656,man-made construction,Sicilia
-Agrigento,tratto stradale,road,tr_str,1625,51910,3.13,roads,Sicilia
-Agrigento,unità insediativa,settlement unit,pe_uins,80,401,19.95,pertinences,Sicilia
-Ancona,edificio,building,edifc,254,113247,0.224,buildings,Marche
-Ancona,edificio minore,minor building,edi_min,1,1170,0.085,buildings,Marche
-Ancona,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,51,14267,0.357,roads,Marche
-Ancona,elemento ferroviario,railway element,el_fer,1,939,0.106,railway,Marche
-Ancona,opera portuale e di difesa delle coste,port and defense of the coasts,op_por,124,188,65.957,"hydraulic, defence and hydraulic regulation works",Marche
-Ancona,tratto stradale,road,tr_str,2842,36258,7.838,roads,Marche
-Ancona,unità insediativa,settlement unit,pe_uins,14,330,4.242,pertinences,Marche
-Arezzo,edificio,building,edifc,95,172422,0.055,buildings,Toscana
-Arezzo,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,106,32534,0.326,roads,Toscana
-Arezzo,sostegno a traliccio,pylicc,tralic,132,2447,5.394,man-made construction,Toscana
-Arezzo,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,436,438,99.543,electricity network,Toscana
-Arezzo,tratto stradale,road,tr_str,181,41841,0.433,roads,Toscana
-Arezzo,unità insediativa,settlement unit,pe_uins,138,1087,12.695,pertinences,Toscana
-Ascoli Piceno,edificio,building,edifc,28,58421,0.048,buildings,Marche
-Ascoli Piceno,edificio minore,minor building,edi_min,6,289,2.076,buildings,Marche
-Ascoli Piceno,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,5,5070,0.099,roads,Marche
-Ascoli Piceno,elemento ferroviario,railway element,el_fer,72,358,20.112,railway,Marche
-Ascoli Piceno,tratto stradale,road,tr_str,867,12383,7.002,roads,Marche
-Ascoli Piceno,unità insediativa,settlement unit,pe_uins,1,229,0.437,pertinences,Marche
-Avellino,area di scavo o discarica,excavation or landfill area,sc_dis,1,53,1.887,terrain forms,Campania
-Avellino,edificio,building,edifc,17,162423,0.01,buildings,Campania
-Avellino,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,70,91557,0.076,roads,Campania
-Avellino,elemento ferroviario,railway element,el_fer,425,425,100.0,railway,Campania
-Avellino,elemento funicolare,funicular element,el_fun,5,5,100.0,railway,Campania
-Avellino,giunzione ferroviaria,railway junction,gz_fer,17,132,12.879,railway,Campania
-Avellino,invaso artificiale,artificial reservoir,invaso,3,124,2.419,inland and transitional waters,Campania
-Avellino,manufatto industriale,industrial artefact,mn_ind,503,5960,8.44,man-made construction,Campania
-Avellino,manufatto monumentale e di arredo urbano,monumental artifact and urban furniture,mn_mau,1,2,50.0,man-made construction,Campania
-Avellino,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,18,386,4.663,electricity network,Campania
-Avellino,tratto stradale,road,tr_str,22013,31011,70.984,roads,Campania
-Avellino,unità insediativa,settlement unit,pe_uins,24,677,3.545,pertinences,Campania
-Bari,area estrattiva,extractive area,cv_aes,15,105,14.286,quarries-dumps,Puglia
-Bari,attrezzatura sportiva,sports equipment,attr_sp,1,4398,0.023,man-made construction,Puglia
-Bari,discarica,dump,cv_dis,1,2,50.0,quarries-dumps,Puglia
-Bari,edificio,building,edifc,18,235320,0.008,buildings,Puglia
-Bari,edificio minore,minor building,edi_min,48,77805,0.062,buildings,Puglia
-Bari,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,7,103408,0.007,roads,Puglia
-Bari,manufatto industriale,industrial artefact,mn_ind,4,41721,0.01,man-made construction,Puglia
-Bari,manufatto monumentale e di arredo urbano,monumental artifact and urban furniture,mn_mau,3,433,0.693,man-made construction,Puglia
-Bari,sostegno a traliccio,pylicc,tralic,3565,4406,80.912,man-made construction,Puglia
-Bari,tratto stradale,road,tr_str,352,72501,0.486,roads,Puglia
-Bari,unità insediativa,settlement unit,pe_uins,77,1254,6.14,pertinences,Puglia
-Barletta-Andria-Trani,discarica,dump,cv_dis,5,35,14.286,quarries-dumps,Puglia
-Barletta-Andria-Trani,edificio,building,edifc,118,60280,0.196,buildings,Puglia
-Barletta-Andria-Trani,edificio minore,minor building,edi_min,13,17543,0.074,buildings,Puglia
-Barletta-Andria-Trani,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,3,45957,0.007,roads,Puglia
-Barletta-Andria-Trani,manufatto industriale,industrial artefact,mn_ind,55,11475,0.479,man-made construction,Puglia
-Barletta-Andria-Trani,sostegno a traliccio,pylicc,tralic,1569,2141,73.284,man-made construction,Puglia
-Barletta-Andria-Trani,tratto stradale,road,tr_str,49,18596,0.263,roads,Puglia
-Barletta-Andria-Trani,unità insediativa,settlement unit,pe_uins,83,622,13.344,pertinences,Puglia
-Benevento,area di scavo o discarica,excavation or landfill area,sc_dis,2,55,3.636,terrain forms,Campania
-Benevento,edificio,building,edifc,14,111936,0.013,buildings,Campania
-Benevento,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,36,64970,0.055,roads,Campania
-Benevento,elemento ferroviario,railway element,el_fer,401,401,100.0,railway,Campania
-Benevento,giunzione ferroviaria,railway junction,gz_fer,14,140,10.0,railway,Campania
-Benevento,manufatto industriale,industrial artefact,mn_ind,448,4444,10.081,man-made construction,Campania
-Benevento,specchio d'acqua,water mirror,sp_acq,2,45,4.444,inland and transitional waters,Campania
-Benevento,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,2,156,1.282,electricity network,Campania
-Benevento,tratto stradale,road,tr_str,15346,26180,58.617,roads,Campania
-Benevento,unità insediativa,settlement unit,pe_uins,12,418,2.871,pertinences,Campania
-Brindisi,manufatto industriale,industrial artefact,mn_ind,30,11948,0.251,man-made construction,Puglia
-Brindisi,sostegno a traliccio,pylicc,tralic,2657,2878,92.321,man-made construction,Puglia
-Brindisi,tratto stradale,road,tr_str,285,32560,0.875,roads,Puglia
-Cagliari,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,20,44084,0.045,roads,Sardegna
-Cagliari,elemento tramviario,tramway element,el_trv,62,62,100.0,railway,Sardegna
-Cagliari,tratto stradale,road,tr_str,49,45939,0.107,roads,Sardegna
-Cagliari,unità insediativa,settlement unit,pe_uins,2,992,0.202,pertinences,Sardegna
-Caltanissetta,area estrattiva,extractive area,cv_aes,14,23,60.87,quarries-dumps,Sicilia
-Caltanissetta,attrezzatura sportiva,sports equipment,attr_sp,40,267,14.981,man-made construction,Sicilia
-Caltanissetta,edificio,building,edifc,9,70161,0.013,buildings,Sicilia
-Caltanissetta,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,307,33454,0.918,roads,Sicilia
-Caltanissetta,manufatto industriale,industrial artefact,mn_ind,5,4969,0.101,man-made construction,Sicilia
-Caltanissetta,tratto stradale,road,tr_str,1448,27287,5.307,roads,Sicilia
-Caltanissetta,unità insediativa,settlement unit,pe_uins,58,397,14.61,pertinences,Sicilia
-Campobasso,area a servizio aeroportuale,airport service area,sv_aer,3,3,100.0,transport services,Molise
-Campobasso,area estrattiva,extractive area,cv_aes,11,50,22.0,quarries-dumps,Molise
-Campobasso,area verde,green area,ar_vrd,104,104,100.0,urban greenery,Molise
-Campobasso,attrezzatura sportiva,sports equipment,attr_sp,401,481,83.368,man-made construction,Molise
-Campobasso,coltura agricola,agricultural culture,cl_agr,140,4134,3.387,agro-forestry areas,Molise
-Campobasso,discarica,dump,cv_dis,1,4,25.0,quarries-dumps,Molise
-Campobasso,edificio,building,edifc,23,151054,0.015,buildings,Molise
-Campobasso,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,239,6288,3.801,roads,Molise
-Campobasso,elemento ferroviario,railway element,el_fer,23,575,4.0,railway,Molise
-Campobasso,manufatto d'infrastruttura di trasporto,transport infrastructure artifact,man_tr,13,15,86.667,man-made construction,Molise
-Campobasso,manufatto industriale,industrial artefact,mn_ind,12,533,2.251,man-made construction,Molise
-Campobasso,manufatto monumentale e di arredo urbano,monumental artifact and urban furniture,mn_mau,14,14,100.0,man-made construction,Molise
-Campobasso,sostegno a traliccio,pylicc,tralic,2492,2531,98.459,man-made construction,Molise
-Campobasso,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,145,155,93.548,electricity network,Molise
-Campobasso,tratto stradale,road,tr_str,6838,29323,23.32,roads,Molise
-Campobasso,unità insediativa,settlement unit,pe_uins,201,319,63.009,pertinences,Molise
-Caserta,diga,dam,diga,2,11,18.182,"hydraulic, defence and hydraulic regulation works",Campania
-Caserta,discarica,dump,cv_dis,1,11,9.091,quarries-dumps,Campania
-Caserta,edificio,building,edifc,1,166890,0.001,buildings,Campania
-Caserta,elemento di metropolitana,metro element,el_met,16,16,100.0,railway,Campania
-Caserta,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,76,82481,0.092,roads,Campania
-Caserta,elemento ferroviario,railway element,el_fer,1274,1274,100.0,railway,Campania
-Caserta,giunzione di metropolitana,subway junction,gz_met,2,2,100.0,railway,Campania
-Caserta,giunzione ferroviaria,railway junction,gz_fer,29,172,16.86,railway,Campania
-Caserta,invaso artificiale,artificial reservoir,invaso,1,263,0.38,inland and transitional waters,Campania
-Caserta,manufatto industriale,industrial artefact,mn_ind,70,13763,0.509,man-made construction,Campania
-Caserta,manufatto monumentale e di arredo urbano,monumental artifact and urban furniture,mn_mau,1,10,10.0,man-made construction,Campania
-Caserta,sostegno a traliccio,pylicc,tralic,74,4480,1.652,man-made construction,Campania
-Caserta,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,52,247,21.053,electricity network,Campania
-Caserta,tratto stradale,road,tr_str,31673,39551,80.081,roads,Campania
-Caserta,unità insediativa,settlement unit,pe_uins,66,685,9.635,pertinences,Campania
-Catania,area estrattiva,extractive area,cv_aes,3,4,75.0,quarries-dumps,Sicilia
-Catania,edificio,building,edifc,1085,229024,0.474,buildings,Sicilia
-Catania,edificio minore,minor building,edi_min,10,38564,0.026,buildings,Sicilia
-Catania,elemento di trasporto a fune,fune transport element,el_fne,2,8,25.0,other transport,Sicilia
-Catania,elemento ferroviario,railway element,el_fer,10,2072,0.483,railway,Sicilia
-Catania,manufatto industriale,industrial artefact,mn_ind,1,13315,0.008,man-made construction,Sicilia
-Catania,tratto stradale,road,tr_str,3409,59159,5.762,roads,Sicilia
-Catania,unità insediativa,settlement unit,pe_uins,5,303,1.65,pertinences,Sicilia
-Catanzaro,attrezzatura sportiva,sports equipment,attr_sp,1,1586,0.063,man-made construction,Calabria
-Catanzaro,discarica,dump,cv_dis,3,14,21.429,quarries-dumps,Calabria
-Catanzaro,edificio,building,edifc,7,120079,0.006,buildings,Calabria
-Catanzaro,edificio minore,minor building,edi_min,1,80638,0.001,buildings,Calabria
-Catanzaro,elemento ferroviario,railway element,el_fer,4,1387,0.288,railway,Calabria
-Catanzaro,giunzione ferroviaria,railway junction,gz_fer,45,93,48.387,railway,Calabria
-Catanzaro,manufatto d'infrastruttura di trasporto,transport infrastructure artifact,man_tr,2,9,22.222,man-made construction,Calabria
-Catanzaro,manufatto industriale,industrial artefact,mn_ind,311,8303,3.746,man-made construction,Calabria
-Catanzaro,sostegno a traliccio,pylicc,tralic,5,12349,0.04,man-made construction,Calabria
-Catanzaro,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,2,2079,0.096,electricity network,Calabria
-Catanzaro,unità insediativa,settlement unit,pe_uins,70,1137,6.157,pertinences,Calabria
-Chieti,area estrattiva,extractive area,cv_aes,3,122,2.459,quarries-dumps,Abruzzo
-Chieti,edificio,building,edifc,1,161989,0.001,buildings,Abruzzo
-Chieti,giunzione ferroviaria,railway junction,gz_fer,1,1755,0.057,railway,Abruzzo
-Chieti,manufatto d'infrastruttura di trasporto,transport infrastructure artifact,man_tr,1,30,3.333,man-made construction,Abruzzo
-Chieti,opera portuale e di difesa delle coste,port and defense of the coasts,op_por,13,282,4.61,"hydraulic, defence and hydraulic regulation works",Abruzzo
-Chieti,unità insediativa,settlement unit,pe_uins,3,347,0.865,pertinences,Abruzzo
-Cosenza,area a servizio aeroportuale,airport service area,sv_aer,2,4,50.0,transport services,Calabria
-Cosenza,attrezzatura sportiva,sports equipment,attr_sp,4,2510,0.159,man-made construction,Calabria
-Cosenza,discarica,dump,cv_dis,5,34,14.706,quarries-dumps,Calabria
-Cosenza,edificio,building,edifc,9,251769,0.004,buildings,Calabria
-Cosenza,edificio minore,minor building,edi_min,1,130540,0.001,buildings,Calabria
-Cosenza,elemento ferroviario,railway element,el_fer,1,2695,0.037,railway,Calabria
-Cosenza,giunzione ferroviaria,railway junction,gz_fer,62,90,68.889,railway,Calabria
-Cosenza,manufatto d'infrastruttura di trasporto,transport infrastructure artifact,man_tr,2,14,14.286,man-made construction,Calabria
-Cosenza,manufatto industriale,industrial artefact,mn_ind,30,9456,0.317,man-made construction,Calabria
-Cosenza,sostegno a traliccio,pylicc,tralic,4171,13063,31.93,man-made construction,Calabria
-Cosenza,tratto stradale,road,tr_str,105,188341,0.056,roads,Calabria
-Cosenza,unità insediativa,settlement unit,pe_uins,65,1710,3.801,pertinences,Calabria
-Crotone,area a servizio aeroportuale,airport service area,sv_aer,2,3,66.667,transport services,Calabria
-Crotone,discarica,dump,cv_dis,3,18,16.667,quarries-dumps,Calabria
-Crotone,giunzione ferroviaria,railway junction,gz_fer,6,34,17.647,railway,Calabria
-Crotone,manufatto industriale,industrial artefact,mn_ind,307,2841,10.806,man-made construction,Calabria
-Crotone,sostegno a traliccio,pylicc,tralic,21,15162,0.139,man-made construction,Calabria
-Crotone,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,2,2195,0.091,electricity network,Calabria
-Crotone,unità insediativa,settlement unit,pe_uins,46,429,10.723,pertinences,Calabria
-Enna,area estrattiva,extractive area,cv_aes,6,9,66.667,quarries-dumps,Sicilia
-Enna,attrezzatura sportiva,sports equipment,attr_sp,33,170,19.412,man-made construction,Sicilia
-Enna,edificio minore,minor building,edi_min,1,13943,0.007,buildings,Sicilia
-Enna,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,181,43193,0.419,roads,Sicilia
-Enna,elemento ferroviario,railway element,el_fer,2,671,0.298,railway,Sicilia
-Enna,tratto stradale,road,tr_str,1402,20611,6.802,roads,Sicilia
-Enna,unità insediativa,settlement unit,pe_uins,26,285,9.123,pertinences,Sicilia
-Fermo,edificio,building,edifc,26,51091,0.051,buildings,Marche
-Fermo,elemento ferroviario,railway element,el_fer,15,115,13.043,railway,Marche
-Fermo,opera portuale e di difesa delle coste,port and defense of the coasts,op_por,64,89,71.91,"hydraulic, defence and hydraulic regulation works",Marche
-Fermo,tratto stradale,road,tr_str,510,12275,4.155,roads,Marche
-Fermo,unità insediativa,settlement unit,pe_uins,2,188,1.064,pertinences,Marche
-Firenze,attrezzatura sportiva,sports equipment,attr_sp,3,1093,0.274,man-made construction,Toscana
-Firenze,edificio,building,edifc,179,297031,0.06,buildings,Toscana
-Firenze,edificio minore,minor building,edi_min,28,99389,0.028,buildings,Toscana
-Firenze,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,164,38431,0.427,roads,Toscana
-Firenze,elemento ferroviario,railway element,el_fer,5,2077,0.241,railway,Toscana
-Firenze,elemento tramviario,tramway element,el_trv,41,41,100.0,railway,Toscana
-Firenze,sostegno a traliccio,pylicc,tralic,614,3630,16.915,man-made construction,Toscana
-Firenze,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,769,770,99.87,electricity network,Toscana
-Firenze,tratto stradale,road,tr_str,220,60678,0.363,roads,Toscana
-Firenze,unità insediativa,settlement unit,pe_uins,295,2216,13.312,pertinences,Toscana
-Foggia,area a servizio aeroportuale,airport service area,sv_aer,1,7,14.286,transport services,Puglia
-Foggia,attrezzatura sportiva,sports equipment,attr_sp,1,1785,0.056,man-made construction,Puglia
-Foggia,discarica,dump,cv_dis,1,6,16.667,quarries-dumps,Puglia
-Foggia,edificio,building,edifc,9,138695,0.006,buildings,Puglia
-Foggia,edificio minore,minor building,edi_min,3,54219,0.006,buildings,Puglia
-Foggia,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,50,122104,0.041,roads,Puglia
-Foggia,localizzazione di manufatto industriale/di trasporto,location of industrial artifact/transport,mn_int,3,7696,0.039,man-made construction,Puglia
-Foggia,manufatto industriale,industrial artefact,mn_ind,1042,21710,4.8,man-made construction,Puglia
-Foggia,sostegno a traliccio,pylicc,tralic,4552,8612,52.856,man-made construction,Puglia
-Foggia,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,7,4827,0.145,electricity network,Puglia
-Foggia,tratto stradale,road,tr_str,1001,53250,1.88,roads,Puglia
-Foggia,unità insediativa,settlement unit,pe_uins,136,1040,13.077,pertinences,Puglia
-Frosinone,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,98,178455,0.055,roads,Lazio
-Grosseto,area estrattiva,extractive area,cv_aes,3,209,1.435,quarries-dumps,Toscana
-Grosseto,attrezzatura sportiva,sports equipment,attr_sp,1,408,0.245,man-made construction,Toscana
-Grosseto,discarica,dump,cv_dis,2,6,33.333,quarries-dumps,Toscana
-Grosseto,edificio,building,edifc,132,116350,0.113,buildings,Toscana
-Grosseto,edificio minore,minor building,edi_min,1,35449,0.003,buildings,Toscana
-Grosseto,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,8798,77279,11.385,roads,Toscana
-Grosseto,manufatto d'infrastruttura di trasporto,transport infrastructure artifact,man_tr,1,34,2.941,man-made construction,Toscana
-Grosseto,manufatto industriale,industrial artefact,mn_ind,17,3241,0.525,man-made construction,Toscana
-Grosseto,sostegno a traliccio,pylicc,tralic,67,2092,3.203,man-made construction,Toscana
-Grosseto,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,338,339,99.705,electricity network,Toscana
-Grosseto,tratto stradale,road,tr_str,13,26015,0.05,roads,Toscana
-Grosseto,unità insediativa,settlement unit,pe_uins,97,539,17.996,pertinences,Toscana
-Isernia,area estrattiva,extractive area,cv_aes,6,26,23.077,quarries-dumps,Molise
-Isernia,area verde,green area,ar_vrd,20,20,100.0,urban greenery,Molise
-Isernia,attrezzatura sportiva,sports equipment,attr_sp,151,194,77.835,man-made construction,Molise
-Isernia,coltura agricola,agricultural culture,cl_agr,39,1605,2.43,agro-forestry areas,Molise
-Isernia,edificio,building,edifc,19,81098,0.023,buildings,Molise
-Isernia,elemento di trasporto a fune,fune transport element,el_fne,1,1,100.0,other transport,Molise
-Isernia,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,397,2346,16.922,roads,Molise
-Isernia,elemento ferroviario,railway element,el_fer,35,370,9.459,railway,Molise
-Isernia,manufatto d'infrastruttura di trasporto,transport infrastructure artifact,man_tr,1,1,100.0,man-made construction,Molise
-Isernia,manufatto industriale,industrial artefact,mn_ind,1,536,0.187,man-made construction,Molise
-Isernia,manufatto monumentale e di arredo urbano,monumental artifact and urban furniture,mn_mau,10,10,100.0,man-made construction,Molise
-Isernia,sostegno a traliccio,pylicc,tralic,1071,1074,99.721,man-made construction,Molise
-Isernia,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,75,79,94.937,electricity network,Molise
-Isernia,tratto stradale,road,tr_str,3150,12249,25.716,roads,Molise
-Isernia,unità insediativa,settlement unit,pe_uins,86,159,54.088,pertinences,Molise
-L'Aquila,area estrattiva,extractive area,cv_aes,1,291,0.344,quarries-dumps,Abruzzo
-L'Aquila,edificio,building,edifc,234,141614,0.165,buildings,Abruzzo
-L'Aquila,edificio minore,minor building,edi_min,2,55428,0.004,buildings,Abruzzo
-L'Aquila,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,3,93090,0.003,roads,Abruzzo
-L'Aquila,giunzione ferroviaria,railway junction,gz_fer,4,2760,0.145,railway,Abruzzo
-L'Aquila,manufatto d'infrastruttura di trasporto,transport infrastructure artifact,man_tr,3,19,15.789,man-made construction,Abruzzo
-L'Aquila,sostegno a traliccio,pylicc,tralic,2,4989,0.04,man-made construction,Abruzzo
-L'Aquila,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,2,449,0.445,electricity network,Abruzzo
-L'Aquila,unità insediativa,settlement unit,pe_uins,7,397,1.763,pertinences,Abruzzo
-Latina,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,71,63951,0.111,roads,Lazio
-Latina,elemento ferroviario,railway element,el_fer,3,1345,0.223,railway,Lazio
-Latina,tratto stradale,road,tr_str,2,31784,0.006,roads,Lazio
-Lecce,area estrattiva,extractive area,cv_aes,3,126,2.381,quarries-dumps,Puglia
-Lecce,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,88,118211,0.074,roads,Puglia
-Lecce,sostegno a traliccio,pylicc,tralic,2910,4293,67.785,man-made construction,Puglia
-Lecce,tratto stradale,road,tr_str,439,81773,0.537,roads,Puglia
-Lecce,unità insediativa,settlement unit,pe_uins,5,1548,0.323,pertinences,Puglia
-Livorno,area a servizio stradale,road service area,sv_str,1,17,5.882,transport services,Toscana
-Livorno,edificio,building,edifc,80,121822,0.066,buildings,Toscana
-Livorno,edificio minore,minor building,edi_min,16,42432,0.038,buildings,Toscana
-Livorno,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,62,11694,0.53,roads,Toscana
-Livorno,manufatto industriale,industrial artefact,mn_ind,3,4649,0.065,man-made construction,Toscana
-Livorno,sostegno a traliccio,pylicc,tralic,83,2177,3.813,man-made construction,Toscana
-Livorno,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,724,724,100.0,electricity network,Toscana
-Livorno,tratto stradale,road,tr_str,171,27973,0.611,roads,Toscana
-Livorno,unità insediativa,settlement unit,pe_uins,76,507,14.99,pertinences,Toscana
-Lucca,attrezzatura sportiva,sports equipment,attr_sp,9,747,1.205,man-made construction,Toscana
-Lucca,edificio,building,edifc,325,263981,0.123,buildings,Toscana
-Lucca,edificio minore,minor building,edi_min,29,104669,0.028,buildings,Toscana
-Lucca,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,368,19068,1.93,roads,Toscana
-Lucca,sostegno a traliccio,pylicc,tralic,48,2310,2.078,man-made construction,Toscana
-Lucca,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,567,567,100.0,electricity network,Toscana
-Lucca,tratto stradale,road,tr_str,243,46145,0.527,roads,Toscana
-Lucca,unità insediativa,settlement unit,pe_uins,196,919,21.328,pertinences,Toscana
-Macerata,edificio,building,edifc,195,113905,0.171,buildings,Marche
-Macerata,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,42,17178,0.244,roads,Marche
-Macerata,elemento ferroviario,railway element,el_fer,49,487,10.062,railway,Marche
-Macerata,opera portuale e di difesa delle coste,port and defense of the coasts,op_por,33,65,50.769,"hydraulic, defence and hydraulic regulation works",Marche
-Macerata,tratto stradale,road,tr_str,1107,31806,3.48,roads,Marche
-Macerata,unità insediativa,settlement unit,pe_uins,6,448,1.339,pertinences,Marche
-Massa Carrara,attrezzatura sportiva,sports equipment,attr_sp,21,327,6.422,man-made construction,Toscana
-Massa Carrara,edificio,building,edifc,861,92832,0.927,buildings,Toscana
-Massa Carrara,edificio minore,minor building,edi_min,57,39514,0.144,buildings,Toscana
-Massa Carrara,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,905,10548,8.58,roads,Toscana
-Massa Carrara,manufatto industriale,industrial artefact,mn_ind,17,1924,0.884,man-made construction,Toscana
-Massa Carrara,sostegno a traliccio,pylicc,tralic,330,1790,18.436,man-made construction,Toscana
-Massa Carrara,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,265,269,98.513,electricity network,Toscana
-Massa Carrara,tratto stradale,road,tr_str,362,18794,1.926,roads,Toscana
-Massa Carrara,unità insediativa,settlement unit,pe_uins,71,508,13.976,pertinences,Toscana
-Matera,edificio minore,minor building,edi_min,4,37914,0.011,buildings,Basilicata
-Matera,manufatto industriale,industrial artefact,mn_ind,9,13064,0.069,man-made construction,Basilicata
-Matera,tratto stradale,road,tr_str,39,55037,0.071,roads,Basilicata
-Messina,attrezzatura sportiva,sports equipment,attr_sp,1,1894,0.053,man-made construction,Sicilia
-Messina,edificio,building,edifc,625,178632,0.35,buildings,Sicilia
-Messina,edificio minore,minor building,edi_min,7,62943,0.011,buildings,Sicilia
-Messina,elemento ferroviario,railway element,el_fer,73,1987,3.674,railway,Sicilia
-Messina,manufatto industriale,industrial artefact,mn_ind,1,6572,0.015,man-made construction,Sicilia
-Messina,manufatto monumentale e di arredo urbano,monumental artifact and urban furniture,mn_mau,1,290,0.345,man-made construction,Sicilia
-Messina,tratto stradale,road,tr_str,5117,48918,10.46,roads,Sicilia
-Messina,unità insediativa,settlement unit,pe_uins,1,465,0.215,pertinences,Sicilia
-Napoli,edificio,building,edifc,18,251954,0.007,buildings,Campania
-Napoli,elemento di metropolitana,metro element,el_met,203,203,100.0,railway,Campania
-Napoli,elemento di trasporto a fune,fune transport element,el_fne,1,3,33.333,other transport,Campania
-Napoli,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,72,50586,0.142,roads,Campania
-Napoli,elemento ferroviario,railway element,el_fer,2360,2360,100.0,railway,Campania
-Napoli,elemento funicolare,funicular element,el_fun,12,28,42.857,railway,Campania
-Napoli,elemento tramviario,tramway element,el_trv,111,111,100.0,railway,Campania
-Napoli,giunzione di metropolitana,subway junction,gz_met,26,26,100.0,railway,Campania
-Napoli,giunzione ferroviaria,railway junction,gz_fer,82,311,26.367,railway,Campania
-Napoli,giunzione tranviaria,tram junction,gz_trv,2,2,100.0,railway,Campania
-Napoli,invaso artificiale,artificial reservoir,invaso,2,69,2.899,inland and transitional waters,Campania
-Napoli,manufatto industriale,industrial artefact,mn_ind,30,17239,0.174,man-made construction,Campania
-Napoli,manufatto monumentale e di arredo urbano,monumental artifact and urban furniture,mn_mau,1,8,12.5,man-made construction,Campania
-Napoli,specchio d'acqua,water mirror,sp_acq,1,11,9.091,inland and transitional waters,Campania
-Napoli,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,30,247,12.146,electricity network,Campania
-Napoli,tratto stradale,road,tr_str,55516,66471,83.519,roads,Campania
-Napoli,unità insediativa,settlement unit,pe_uins,35,599,5.843,pertinences,Campania
-Nuoro,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,2,78876,0.003,roads,Sardegna
-Nuoro,tratto stradale,road,tr_str,229,64653,0.354,roads,Sardegna
-Oristano,edificio minore,minor building,edi_min,1,14005,0.007,buildings,Sardegna
-Oristano,tratto stradale,road,tr_str,34,60228,0.056,roads,Sardegna
-Palermo,area estrattiva,extractive area,cv_aes,30,70,42.857,quarries-dumps,Sicilia
-Palermo,edificio minore,minor building,edi_min,4,86041,0.005,buildings,Sicilia
-Palermo,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,863,90501,0.954,roads,Sicilia
-Palermo,elemento ferroviario,railway element,el_fer,21,1341,1.566,railway,Sicilia
-Palermo,manufatto industriale,industrial artefact,mn_ind,1,8984,0.011,man-made construction,Sicilia
-Palermo,tratto stradale,road,tr_str,2766,69070,4.005,roads,Sicilia
-Perugia,area a servizio aeroportuale,airport service area,sv_aer,1,13,7.692,transport services,Umbria
-Perugia,area estrattiva,extractive area,cv_aes,6,101,5.941,quarries-dumps,Umbria
-Perugia,attrezzatura sportiva,sports equipment,attr_sp,4,4437,0.09,man-made construction,Umbria
-Perugia,edificio,building,edifc,7,345537,0.002,buildings,Umbria
-Perugia,edificio minore,minor building,edi_min,2104,67532,3.116,buildings,Umbria
-Perugia,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,18962,19663,96.435,roads,Umbria
-Perugia,elemento ferroviario,railway element,el_fer,1428,1454,98.212,railway,Umbria
-Perugia,manufatto d'infrastruttura di trasporto,transport infrastructure artifact,man_tr,3,33,9.091,man-made construction,Umbria
-Perugia,sostegno a traliccio,pylicc,tralic,166,22977,0.722,man-made construction,Umbria
-Perugia,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,3,2856,0.105,electricity network,Umbria
-Perugia,tratto stradale,road,tr_str,48541,50734,95.677,roads,Umbria
-Perugia,unità insediativa,settlement unit,pe_uins,127,983,12.92,pertinences,Umbria
-Pesaro e Urbino,edificio,building,edifc,67,101324,0.066,buildings,Marche
-Pesaro e Urbino,edificio minore,minor building,edi_min,1,1003,0.1,buildings,Marche
-Pesaro e Urbino,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,17,27519,0.062,roads,Marche
-Pesaro e Urbino,opera portuale e di difesa delle coste,port and defense of the coasts,op_por,147,192,76.562,"hydraulic, defence and hydraulic regulation works",Marche
-Pesaro e Urbino,tratto stradale,road,tr_str,1654,37230,4.443,roads,Marche
-Pesaro e Urbino,unità insediativa,settlement unit,pe_uins,13,380,3.421,pertinences,Marche
-Pescara,area a servizio del trasporto su ferro,area of ​​transport on iron transport,sv_fer,1,13,7.692,transport services,Abruzzo
-Pescara,area estrattiva,extractive area,cv_aes,2,89,2.247,quarries-dumps,Abruzzo
-Pescara,edificio,building,edifc,5,92610,0.005,buildings,Abruzzo
-Pescara,opera portuale e di difesa delle coste,port and defense of the coasts,op_por,3,138,2.174,"hydraulic, defence and hydraulic regulation works",Abruzzo
-Pescara,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,1,220,0.455,electricity network,Abruzzo
-Pescara,tratto stradale,road,tr_str,3,48671,0.006,roads,Abruzzo
-Pescara,unità insediativa,settlement unit,pe_uins,2,181,1.105,pertinences,Abruzzo
-Pisa,attrezzatura sportiva,sports equipment,attr_sp,5,825,0.606,man-made construction,Toscana
-Pisa,edificio,building,edifc,1036,193205,0.536,buildings,Toscana
-Pisa,edificio minore,minor building,edi_min,52,80049,0.065,buildings,Toscana
-Pisa,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,125,20786,0.601,roads,Toscana
-Pisa,manufatto industriale,industrial artefact,mn_ind,14,6705,0.209,man-made construction,Toscana
-Pisa,sostegno a traliccio,pylicc,tralic,192,3730,5.147,man-made construction,Toscana
-Pisa,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,701,702,99.858,electricity network,Toscana
-Pisa,tratto stradale,road,tr_str,172,46392,0.371,roads,Toscana
-Pisa,unità insediativa,settlement unit,pe_uins,115,912,12.61,pertinences,Toscana
-Pistoia,attrezzatura sportiva,sports equipment,attr_sp,17,295,5.763,man-made construction,Toscana
-Pistoia,edificio,building,edifc,152,140406,0.108,buildings,Toscana
-Pistoia,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,374,16636,2.248,roads,Toscana
-Pistoia,sostegno a traliccio,pylicc,tralic,212,1322,16.036,man-made construction,Toscana
-Pistoia,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,252,252,100.0,electricity network,Toscana
-Pistoia,tratto stradale,road,tr_str,131,29771,0.44,roads,Toscana
-Pistoia,unità insediativa,settlement unit,pe_uins,141,499,28.257,pertinences,Toscana
-Potenza,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,82,60334,0.136,roads,Basilicata
-Potenza,sostegno a traliccio,pylicc,tralic,182,13553,1.343,man-made construction,Basilicata
-Potenza,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,20,1113,1.797,electricity network,Basilicata
-Potenza,tratto stradale,road,tr_str,1208,80310,1.504,roads,Basilicata
-Potenza,unità insediativa,settlement unit,pe_uins,1,1370,0.073,pertinences,Basilicata
-Prato,edificio,building,edifc,11,76962,0.014,buildings,Toscana
-Prato,edificio minore,minor building,edi_min,1,24239,0.004,buildings,Toscana
-Prato,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,9,6927,0.13,roads,Toscana
-Prato,sostegno a traliccio,pylicc,tralic,130,956,13.598,man-made construction,Toscana
-Prato,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,240,240,100.0,electricity network,Toscana
-Prato,tratto stradale,road,tr_str,38,13270,0.286,roads,Toscana
-Prato,unità insediativa,settlement unit,pe_uins,64,216,29.63,pertinences,Toscana
-Ragusa,area a servizio aeroportuale,airport service area,sv_aer,2,4,50.0,transport services,Sicilia
-Ragusa,attrezzatura sportiva,sports equipment,attr_sp,1,753,0.133,man-made construction,Sicilia
-Ragusa,edificio,building,edifc,15,104695,0.014,buildings,Sicilia
-Ragusa,elemento ferroviario,railway element,el_fer,2,643,0.311,railway,Sicilia
-Ragusa,manufatto d'infrastruttura di trasporto,transport infrastructure artifact,man_tr,9,59,15.254,man-made construction,Sicilia
-Ragusa,tratto stradale,road,tr_str,1274,28973,4.397,roads,Sicilia
-Ragusa,unità insediativa,settlement unit,pe_uins,49,258,18.992,pertinences,Sicilia
-Reggio di Calabria,area a servizio aeroportuale,airport service area,sv_aer,1,2,50.0,transport services,Calabria
-Reggio di Calabria,discarica,dump,cv_dis,1,12,8.333,quarries-dumps,Calabria
-Reggio di Calabria,edificio,building,edifc,3,222688,0.001,buildings,Calabria
-Reggio di Calabria,giunzione ferroviaria,railway junction,gz_fer,49,164,29.878,railway,Calabria
-Reggio di Calabria,manufatto industriale,industrial artefact,mn_ind,18,9750,0.185,man-made construction,Calabria
-Reggio di Calabria,sostegno a traliccio,pylicc,tralic,12,3748,0.32,man-made construction,Calabria
-Reggio di Calabria,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,3,2561,0.117,electricity network,Calabria
-Reggio di Calabria,tratto stradale,road,tr_str,21,80835,0.026,roads,Calabria
-Reggio di Calabria,unità insediativa,settlement unit,pe_uins,88,1026,8.577,pertinences,Calabria
-Roma,edificio,building,edifc,1,485943,0.0,buildings,Lazio
-Roma,edificio minore,minor building,edi_min,109,297625,0.037,buildings,Lazio
-Roma,elemento di metropolitana,metro element,el_met,363,385,94.286,railway,Lazio
-Roma,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,59,149601,0.039,roads,Lazio
-Roma,elemento ferroviario,railway element,el_fer,9,9955,0.09,railway,Lazio
-Roma,elemento funicolare,funicular element,el_fun,3,3,100.0,railway,Lazio
-Roma,elemento tramviario,tramway element,el_trv,72,72,100.0,railway,Lazio
-Roma,giunzione di metropolitana,subway junction,gz_met,39,49,79.592,railway,Lazio
-Roma,tratto stradale,road,tr_str,23,145831,0.016,roads,Lazio
-Roma,unità insediativa,settlement unit,pe_uins,10,4985,0.201,pertinences,Lazio
-Salerno,diga,dam,diga,1,10,10.0,"hydraulic, defence and hydraulic regulation works",Campania
-Salerno,edificio,building,edifc,19,275515,0.007,buildings,Campania
-Salerno,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,427,191586,0.223,roads,Campania
-Salerno,elemento ferroviario,railway element,el_fer,1173,1174,99.915,railway,Campania
-Salerno,giunzione ferroviaria,railway junction,gz_fer,22,173,12.717,railway,Campania
-Salerno,invaso artificiale,artificial reservoir,invaso,4,80,5.0,inland and transitional waters,Campania
-Salerno,manufatto industriale,industrial artefact,mn_ind,220,32123,0.685,man-made construction,Campania
-Salerno,manufatto monumentale e di arredo urbano,monumental artifact and urban furniture,mn_mau,1,22,4.545,man-made construction,Campania
-Salerno,opera portuale e di difesa delle coste,port and defense of the coasts,op_por,2,153,1.307,"hydraulic, defence and hydraulic regulation works",Campania
-Salerno,specchio d'acqua,water mirror,sp_acq,1,79,1.266,inland and transitional waters,Campania
-Salerno,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,31,2019,1.535,electricity network,Campania
-Salerno,tratto stradale,road,tr_str,40269,56497,71.276,roads,Campania
-Salerno,unità insediativa,settlement unit,pe_uins,43,1011,4.253,pertinences,Campania
-Sassari,edificio minore,minor building,edi_min,1,27967,0.004,buildings,Sardegna
-Sassari,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,103,145618,0.071,roads,Sardegna
-Sassari,tratto stradale,road,tr_str,2210,108256,2.041,roads,Sardegna
-Sassari,unità insediativa,settlement unit,pe_uins,4,290,1.379,pertinences,Sardegna
-Siena,attrezzatura sportiva,sports equipment,attr_sp,6,669,0.897,man-made construction,Toscana
-Siena,edificio,building,edifc,627,132057,0.475,buildings,Toscana
-Siena,edificio minore,minor building,edi_min,76,36476,0.208,buildings,Toscana
-Siena,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,10989,76498,14.365,roads,Toscana
-Siena,manufatto industriale,industrial artefact,mn_ind,7,3533,0.198,man-made construction,Toscana
-Siena,sostegno a traliccio,pylicc,tralic,62,2198,2.821,man-made construction,Toscana
-Siena,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,372,384,96.875,electricity network,Toscana
-Siena,tratto stradale,road,tr_str,17,62269,0.027,roads,Toscana
-Siena,unità insediativa,settlement unit,pe_uins,146,843,17.319,pertinences,Toscana
-Siracusa,area a servizio aeroportuale,airport service area,sv_aer,1,5,20.0,transport services,Sicilia
-Siracusa,edificio,building,edifc,84,106052,0.079,buildings,Sicilia
-Siracusa,edificio minore,minor building,edi_min,2,23953,0.008,buildings,Sicilia
-Siracusa,elemento ferroviario,railway element,el_fer,14,758,1.847,railway,Sicilia
-Siracusa,manufatto d'infrastruttura di trasporto,transport infrastructure artifact,man_tr,13,47,27.66,man-made construction,Sicilia
-Siracusa,tratto stradale,road,tr_str,2191,34496,6.351,roads,Sicilia
-Siracusa,unità insediativa,settlement unit,pe_uins,74,359,20.613,pertinences,Sicilia
-Sud Sardegna,tratto stradale,road,tr_str,163,90931,0.179,roads,Sardegna
-Taranto,discarica,dump,cv_dis,1,229,0.437,quarries-dumps,Puglia
-Taranto,edificio,building,edifc,7,143427,0.005,buildings,Puglia
-Taranto,edificio minore,minor building,edi_min,19,57676,0.033,buildings,Puglia
-Taranto,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,20,63996,0.031,roads,Puglia
-Taranto,sostegno a traliccio,pylicc,tralic,3070,3498,87.764,man-made construction,Puglia
-Taranto,tratto stradale,road,tr_str,177,38571,0.459,roads,Puglia
-Taranto,unità insediativa,settlement unit,pe_uins,2,773,0.259,pertinences,Puglia
-Teramo,edificio,building,edifc,43,129554,0.033,buildings,Abruzzo
-Teramo,manufatto d'infrastruttura di trasporto,transport infrastructure artifact,man_tr,2,14,14.286,man-made construction,Abruzzo
-Teramo,opera portuale e di difesa delle coste,port and defense of the coasts,op_por,13,158,8.228,"hydraulic, defence and hydraulic regulation works",Abruzzo
-Teramo,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,1,139,0.719,electricity network,Abruzzo
-Teramo,tratto stradale,road,tr_str,1,85909,0.001,roads,Abruzzo
-Teramo,unità insediativa,settlement unit,pe_uins,20,403,4.963,pertinences,Abruzzo
-Terni,area estrattiva,extractive area,cv_aes,4,31,12.903,quarries-dumps,Umbria
-Terni,attrezzatura sportiva,sports equipment,attr_sp,83,888,9.347,man-made construction,Umbria
-Terni,edificio,building,edifc,52,109574,0.047,buildings,Umbria
-Terni,edificio minore,minor building,edi_min,1204,22731,5.297,buildings,Umbria
-Terni,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,6651,7194,92.452,roads,Umbria
-Terni,elemento ferroviario,railway element,el_fer,867,920,94.239,railway,Umbria
-Terni,elemento funicolare,funicular element,el_fun,1,8,12.5,railway,Umbria
-Terni,giunzione ferroviaria,railway junction,gz_fer,4,42,9.524,railway,Umbria
-Terni,manufatto industriale,industrial artefact,mn_ind,16,1969,0.813,man-made construction,Umbria
-Terni,nodo della rete elettrica,electric network node,nd_ele,7,4149,0.169,electricity network,Umbria
-Terni,sostegno a traliccio,pylicc,tralic,1762,6331,27.831,man-made construction,Umbria
-Terni,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,8,554,1.444,electricity network,Umbria
-Terni,tratto stradale,road,tr_str,12258,12339,99.344,roads,Umbria
-Terni,unità insediativa,settlement unit,pe_uins,134,398,33.668,pertinences,Umbria
-Trapani,area estrattiva,extractive area,cv_aes,41,43,95.349,quarries-dumps,Sicilia
-Trapani,attrezzatura sportiva,sports equipment,attr_sp,181,1159,15.617,man-made construction,Sicilia
-Trapani,diga,dam,diga,2,16,12.5,"hydraulic, defence and hydraulic regulation works",Sicilia
-Trapani,edificio,building,edifc,11,139640,0.008,buildings,Sicilia
-Trapani,edificio minore,minor building,edi_min,7,33577,0.021,buildings,Sicilia
-Trapani,elemento di viabilità mista secondaria,secondary mixed traffic element,el_vms,111,41037,0.27,roads,Sicilia
-Trapani,manufatto industriale,industrial artefact,mn_ind,236,9829,2.401,man-made construction,Sicilia
-Trapani,manufatto monumentale e di arredo urbano,monumental artifact and urban furniture,mn_mau,18,153,11.765,man-made construction,Sicilia
-Trapani,sostegno a traliccio,pylicc,tralic,20,3209,0.623,man-made construction,Sicilia
-Trapani,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,2,33,6.061,electricity network,Sicilia
-Trapani,tratto stradale,road,tr_str,1737,37236,4.665,roads,Sicilia
-Trapani,unità insediativa,settlement unit,pe_uins,80,353,22.663,pertinences,Sicilia
-Vibo Valentia,area a servizio aeroportuale,airport service area,sv_aer,2,4,50.0,transport services,Calabria
-Vibo Valentia,edificio minore,minor building,edi_min,1,27844,0.004,buildings,Calabria
-Vibo Valentia,giunzione ferroviaria,railway junction,gz_fer,12,28,42.857,railway,Calabria
-Vibo Valentia,manufatto d'infrastruttura di trasporto,transport infrastructure artifact,man_tr,2,5,40.0,man-made construction,Calabria
-Vibo Valentia,manufatto industriale,industrial artefact,mn_ind,14,3271,0.428,man-made construction,Calabria
-Vibo Valentia,sostegno a traliccio,pylicc,tralic,6,2051,0.293,man-made construction,Calabria
-Vibo Valentia,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,4,2059,0.194,electricity network,Calabria
-Vibo Valentia,unità insediativa,settlement unit,pe_uins,32,545,5.872,pertinences,Calabria
-Viterbo,area estrattiva,extractive area,cv_aes,20,91,21.978,quarries-dumps,Lazio
-Viterbo,edificio minore,minor building,edi_min,18,81192,0.022,buildings,Lazio
-Viterbo,tratto di linea della rete elettrica,line of the electricity grid,tr_ele,1,17714,0.006,electricity network,Lazio
-Viterbo,tratto stradale,road,tr_str,6,25345,0.024,roads,Lazio
-Viterbo,unità insediativa,settlement unit,pe_uins,28,777,3.604,pertinences,Lazio
+area_osm_buildings,area_igm_buildings,area_osm_in_igm_buildings,province,region
+12207531.622658191,19904562.247617498,11237193.300366083,Pescara,Abruzzo
+7087268.838431491,13635449.585201025,6706521.82575936,Crotone,Calabria
+32762567.4808133,30643736.305012725,30873801.1341602,Brindisi,Puglia
+21524000.143293753,31827284.98408124,19309302.26564746,Ancona,Marche
+13800301.8924059,12593800.76228465,12430928.994164355,Massa Carrara,Toscana
+12138845.44606022,64525922.93887503,11277172.370223815,Caserta,Campania
+13836048.09407266,52492399.74361656,13296696.038887413,Frosinone,Lazio
+5665604.514822489,13227757.763611939,5473152.434912081,Enna,Sicilia
+18920860.509381644,17770151.253094736,17178997.163761735,Livorno,Toscana
+17510994.617990118,17122360.49551405,16438236.539762206,Barletta-Andria-Trani,Puglia
+9717595.483460018,18580572.27754895,9090212.513758844,Campobasso,Molise
+16027755.04500106,39011513.69796236,15203666.285195684,Messina,Sicilia
+41370061.60843714,39395390.375148624,37805996.03471494,Sassari,Sardegna
+2558812.8236912033,27146310.74285754,0.0,Pesaro e Urbino,Marche
+79632298.77872401,75971258.95141794,75859056.63623105,Lecce,Puglia
+2942413.4476839015,8006844.671260926,2737754.6984533,Isernia,Molise
+20535537.60167939,21742482.078042854,19248083.70406351,Siena,Toscana
+8577136.920915911,15101300.016741892,8153512.959530663,Matera,Basilicata
+32444812.225850556,58727407.122077584,31276075.58921893,Perugia,Umbria
+16523984.443955375,29589419.842558626,15866524.377722004,Viterbo,Lazio
+103254638.73989108,103539129.32640547,96882462.62815616,Napoli,Campania
+9169667.949383829,52610207.69659268,3817.716470066458,Cosenza,Calabria
+53549730.00754083,24508334.870309837,155039.3651420921,Arezzo,Toscana
+7215421.024752842,17677401.359277926,6876323.81856852,Terni,Umbria
+7744870.0355688045,16405719.291774096,7357500.774174036,Rieti,Lazio
+155341312.77214426,164230860.99988258,147293641.55332094,Roma,Lazio
+19646405.25460364,63333627.87733806,18591417.357308436,Salerno,Campania
+22936359.94345728,23797328.031756826,21939058.887385745,Cagliari,Sardegna
+18368974.659746304,27364239.52929874,17020435.61507225,Siracusa,Sicilia
+18443723.919079322,19093506.579467,17823378.85806337,Oristano,Sardegna
+10094529.143584404,27318950.06395729,9679017.10961594,Teramo,Abruzzo
+29050362.245542448,28291731.349459834,26818172.291752353,Pisa,Toscana
+13472685.032187428,32019460.474233784,12451157.159889646,Potenza,Basilicata
+6880024.788250342,14064759.193285473,6174145.962940274,Ascoli Piceno,Marche
+26283617.822291814,42809442.80058948,24042219.999640625,Latina,Lazio
+2558812.8236912033,11873961.394991735,2079047.2475816794,Fermo,Marche
+5793834.143846355,27118003.415179852,5448096.418570514,Benevento,Campania
+5942862.57033973,17003442.616044957,5601459.318631229,Caltanissetta,Sicilia
+19513428.56175022,38632287.597183615,17856340.166662555,Reggio di Calabria,Calabria
+16235246.23477905,15691882.904677626,15866692.232197106,Prato,Toscana
+34807248.54541151,37022242.65152276,34095369.13254991,Sud Sardegna,Sardegna
+7686639.984724984,34970911.59794594,7313817.651358441,Avellino,Campania
+37833330.0060945,35905146.16454316,34870705.05603713,Foggia,Puglia
+42516160.26592122,61374003.3981949,40756553.196979046,Catania,Sicilia
+5232614.618727305,15136237.996669296,4930673.189217722,Vibo Valentia,Calabria
+14830693.601161601,32514698.647241328,14239460.015873712,Agrigento,Sicilia
+40721991.391147025,37922920.824475065,37808996.658753544,Taranto,Puglia
+12244249.958864082,32669388.24924336,11563678.43381383,Chieti,Abruzzo
+28014211.42938147,59907516.54014326,27101850.90320108,Palermo,Sicilia
+14214436.559784535,30404431.27967051,13054480.642286668,L'Aquila,Abruzzo
+9169667.949383829,27011752.91240333,8717120.50799742,Catanzaro,Calabria
+66260025.3689452,63504219.72413242,62210965.59789248,Bari,Puglia
+13678029.429107558,27699022.23128565,12951293.486439347,Ragusa,Sicilia
+16240718.466199167,26089516.040511154,14258630.843804087,Macerata,Marche
+20623072.10707725,18252261.48667899,19477810.586808424,Pistoia,Toscana
+23740073.947369438,15698767.517432805,0.0,Grosseto,Toscana
+12386416.952246685,36595060.87958801,11692080.065831963,Trapani,Sicilia
+53549730.00754083,50976344.28314678,51133729.09355745,Firenze,Toscana
+29558385.97223155,28303605.502810262,27603891.01699513,Lucca,Toscana
+20039355.829047453,19554751.374474872,18658504.524083212,Nuoro,Sardegna
